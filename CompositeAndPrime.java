@@ -2,12 +2,12 @@ import java.util.Scanner;
 import java.util.ArrayList;
 
 // CREATE A JAVA PROGRAM USING ARRAY TO DISPLAY COMPOSITE AND PRIME NUMBERS.
-//Changes
+//Chan
 public class CompositeAndPrime {
     public static ArrayList<Integer> Composite = new ArrayList<Integer>();
     public static ArrayList<Integer> prime = new ArrayList<Integer>();
     public static ArrayList<Integer> ArrayNumbers = new ArrayList<Integer>();
-
+    
     public static boolean looping = true;
     public static void isComposite(int toAdd) {
         Composite.add(toAdd);
@@ -70,6 +70,7 @@ public class CompositeAndPrime {
             }
                 break;
             default:
+                System.out.println("Choose a correct option.");
                 break;
         }
        
