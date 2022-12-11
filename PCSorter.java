@@ -13,6 +13,7 @@ public class PCSorter {
             while (NumInput < 2) {
                 System.out.println("It is neither a prime or composite. Enter value greater than 1.");
                 NumInput = Input.nextInt();
+                
             }
             if (NumInput % 2 == 0) {
                 Numbers[i] = NumInput;
