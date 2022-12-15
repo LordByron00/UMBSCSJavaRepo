@@ -15,7 +15,86 @@ public class ATM {
     public static Scanner InputScanner = new Scanner(System.in);
     public static int PINInput, balanceLine;
     public static Date currDate = new Date();
+    public static void main(String[] args) throws IOException {
 
+        
+        File IDFile = new File("IDlist.txt");
+        File PINFile = new File("PINlist.txt");
+        File nameFile = new File("namelist.txt");
+        File surnameFile = new File("surnamelist.txt");
+        File balanceFile = new File("balanceFile.txt");
+        
+        while(login_loop) { 
+            try {
+                if (!IDFile.exists() || !PINFile.exists() || !nameFile.exists() || !surnameFile.exists() || !balanceFile.exists()) {
+                    IDFile.createNewFile();
+                    PINFile.createNewFile();
+                    nameFile.createNewFile();
+                    surnameFile.createNewFile();
+                    balanceFile.createNewFile();
+                }
+                Scanner IDScanner = new Scanner(IDFile);
+                Scanner PINScanner = new Scanner(PINFile);
+                Scanner nameScanner = new Scanner(nameFile);
+                Scanner surnameScanner = new Scanner(surnameFile);
+                Scanner balanceScanner = new Scanner(balanceFile);
+                    if (IDScanner.hasNextLine() && PINScanner.hasNextLine()) {
+                        System.out.println("---------------------------------------");
+                        System.out.println("WELCOME TO THE UM BANKING SYSTEM.");
+                        System.out.println("---------------------------------------");
+                        System.out.print("ID: ");
+                        IDInput = InputScanner.next();
+                        System.out.print("PIN: ");
+                        PINInput = InputScanner.nextInt();
+                        String PINString = Integer.toString(PINInput);
+                        balanceLine = 0;
+                        while (IDScanner.hasNextLine() || PINScanner.hasNextLine()) {
+                                balanceTempt = Files.readAllLines(Paths.get("balanceFile.txt")).get(balanceLine);
+                                balance = Double.parseDouble(balanceTempt);
+                                userLine = IDScanner.nextLine();
+                                passLine = PINScanner.nextLine();
+                                name = nameScanner.nextLine();
+                                surname = surnameScanner.nextLine();
+                                // balance = balanceScanner.nextDouble();
+                                // Debug
+                                // System.out.println(balanceTempt + " " + userLine + " " + passLine + + balanceLine);
+                                balanceLine++;
+                            if (IDInput.equals(userLine) && PINString.equals(passLine)) {
+                                System.out.println("\n---------------------------------------");
+                                System.out.println("Welcome " + name + " " + surname + ".");
+                                global_Loop = true;
+                                ATMmain();
+                                login_loop = false;
+                                break;
+                            } else {
+                                    if (!IDScanner.hasNextLine() && !PINScanner.hasNextLine()) {
+                                    System.out.println("\nIncorrect ID or PIN.\n[1]Try again.\n[2]Create new account");
+                                    int choice = InputScanner.nextInt();
+                                    switch (choice) {
+                                        case 1:
+                                            System.out.println();
+                                            continue;
+                                        case 2:
+                                            CreateAcc();
+                                            break;
+                                        default:
+                                            break;
+                                    }
+                                }
+                            }
+                        }
+                        
+                    } else {
+                        CreateAcc();
+                    }
+                    
+            } catch (IOException e) {
+            System.out.println("An error occurred.");
+            e.printStackTrace();
+            }
+        }
+    }
+    
     public static void CreateAcc() throws IOException {
         System.out.println("\nCREATE ACCOUNT:");
         System.out.print("Enter name:");
@@ -168,83 +247,5 @@ public class ATM {
             }
     }
     }
-    public static void main(String[] args) throws IOException {
 
-        
-        File IDFile = new File("IDlist.txt");
-        File PINFile = new File("PINlist.txt");
-        File nameFile = new File("namelist.txt");
-        File surnameFile = new File("surnamelist.txt");
-        File balanceFile = new File("balanceFile.txt");
-        
-        while(login_loop) { 
-            try {
-                if (!IDFile.exists() || !PINFile.exists() || !nameFile.exists() || !surnameFile.exists() || !balanceFile.exists()) {
-                    IDFile.createNewFile();
-                    PINFile.createNewFile();
-                    nameFile.createNewFile();
-                    surnameFile.createNewFile();
-                    balanceFile.createNewFile();
-                }
-                Scanner IDScanner = new Scanner(IDFile);
-                Scanner PINScanner = new Scanner(PINFile);
-                Scanner nameScanner = new Scanner(nameFile);
-                Scanner surnameScanner = new Scanner(surnameFile);
-                Scanner balanceScanner = new Scanner(balanceFile);
-                    if (IDScanner.hasNextLine() && PINScanner.hasNextLine()) {
-                        System.out.println("---------------------------------------");
-                        System.out.println("WELCOME TO THE UM BANKING SYSTEM.");
-                        System.out.println("---------------------------------------");
-                        System.out.print("ID: ");
-                        IDInput = InputScanner.next();
-                        System.out.print("PIN: ");
-                        PINInput = InputScanner.nextInt();
-                        String PINString = Integer.toString(PINInput);
-                        balanceLine = 0;
-                        while (IDScanner.hasNextLine() || PINScanner.hasNextLine()) {
-                                balanceTempt = Files.readAllLines(Paths.get("balanceFile.txt")).get(balanceLine);
-                                balance = Double.parseDouble(balanceTempt);
-                                userLine = IDScanner.nextLine();
-                                passLine = PINScanner.nextLine();
-                                name = nameScanner.nextLine();
-                                surname = surnameScanner.nextLine();
-                                // balance = balanceScanner.nextDouble();
-                                // Debug
-                                // System.out.println(balanceTempt + " " + userLine + " " + passLine + + balanceLine);
-                                balanceLine++;
-                            if (IDInput.equals(userLine) && PINString.equals(passLine)) {
-                                System.out.println("\n---------------------------------------");
-                                System.out.println("Welcome " + name + " " + surname + ".");
-                                global_Loop = true;
-                                ATMmain();
-                                login_loop = false;
-                                break;
-                            } else {
-                                    if (!IDScanner.hasNextLine() && !PINScanner.hasNextLine()) {
-                                    System.out.println("\nIncorrect ID or PIN.\n[1]Try again.\n[2]Create new account");
-                                    int choice = InputScanner.nextInt();
-                                    switch (choice) {
-                                        case 1:
-                                            System.out.println();
-                                            continue;
-                                        case 2:
-                                            CreateAcc();
-                                            break;
-                                        default:
-                                            break;
-                                    }
-                                }
-                            }
-                        }
-                        
-                    } else {
-                        CreateAcc();
-                    }
-                    
-            } catch (IOException e) {
-            System.out.println("An error occurred.");
-            e.printStackTrace();
-            }
-        }
-    }
 }
