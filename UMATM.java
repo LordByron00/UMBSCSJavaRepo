@@ -158,10 +158,16 @@ public class UMATM {
                             System.out.println("Choose correctly!");
                             break;
                     }
+                    int IDadvanced = IDnum + 1;
+                    File IDadvance = new File(String.format("010101%s", IDadvanced));
+                    if (!IDadvance.exists()) {
+                        createAccount();
+                    }
+                    
                 }
             }
 
-        } while (IDiterate.exists());
+        } while (IDiterate.exists()); 
         if (!IDiterate.exists()) {
             errorLoop = true;
             while (errorLoop) {
