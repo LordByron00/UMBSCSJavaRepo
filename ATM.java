@@ -14,30 +14,29 @@ public class ATM {
     public static boolean global_Loop = true, login_loop = true;
     public static Scanner InputScanner = new Scanner(System.in);
     public static int PINInput, balanceLine;
+
     public static Date currDate = new Date();
+    public static File IDFile = new File(".\\Accounts\\IDlist.txt");
+    public static File PINFile = new File(".\\Accounts\\PINlist.txt");
+    public static File nameFile = new File(".\\Accounts\\namelist.txt");
+    public static File surnameFile = new File(".\\Accounts\\surnamelist.txt");
+    public static File balanceFile = new File(".\\Accounts\\balanceFile.txt");
+ 
     public static void main(String[] args) throws IOException {
 
-        
-        File IDFile = new File("IDlist.txt");
-        File PINFile = new File("PINlist.txt");
-        File nameFile = new File("namelist.txt");
-        File surnameFile = new File("surnamelist.txt");
-        File balanceFile = new File("balanceFile.txt");
+        File root = new File("Accounts");
         
         while(login_loop) { 
             try {
-                if (!IDFile.exists() || !PINFile.exists() || !nameFile.exists() || !surnameFile.exists() || !balanceFile.exists()) {
-                    IDFile.createNewFile();
-                    PINFile.createNewFile();
-                    nameFile.createNewFile();
-                    surnameFile.createNewFile();
-                    balanceFile.createNewFile();
-                }
-                Scanner IDScanner = new Scanner(IDFile);
-                Scanner PINScanner = new Scanner(PINFile);
-                Scanner nameScanner = new Scanner(nameFile);
-                Scanner surnameScanner = new Scanner(surnameFile);
-                Scanner balanceScanner = new Scanner(balanceFile);
+                if (!root.exists()) {
+                    root.mkdir();
+                    CreateAcc();
+                } else {
+                    Scanner IDScanner = new Scanner(IDFile);
+                    Scanner PINScanner = new Scanner(PINFile);
+                    Scanner nameScanner = new Scanner(nameFile);
+                    Scanner surnameScanner = new Scanner(surnameFile);
+                    Scanner balanceScanner = new Scanner(balanceFile);
                     if (IDScanner.hasNextLine() && PINScanner.hasNextLine()) {
                         System.out.println("---------------------------------------");
                         System.out.println("WELCOME TO THE UM BANKING SYSTEM.");
@@ -47,23 +46,21 @@ public class ATM {
                         System.out.print("PIN: ");
                         PINInput = InputScanner.nextInt();
                         String PINString = Integer.toString(PINInput);
-                        balanceLine = 0;
+                        balanceLine = -1;
                         while (IDScanner.hasNextLine() || PINScanner.hasNextLine()) {
-                                balanceTempt = Files.readAllLines(Paths.get("balanceFile.txt")).get(balanceLine);
+                                balanceLine++;
+                                balanceTempt = Files.readAllLines(Paths.get(".\\Accounts\\balanceFile.txt")).get(balanceLine);
                                 balance = Double.parseDouble(balanceTempt);
                                 userLine = IDScanner.nextLine();
                                 passLine = PINScanner.nextLine();
                                 name = nameScanner.nextLine();
                                 surname = surnameScanner.nextLine();
-                                // balance = balanceScanner.nextDouble();
-                                // Debug
-                                // System.out.println(balanceTempt + " " + userLine + " " + passLine + + balanceLine);
-                                balanceLine++;
+                                
                             if (IDInput.equals(userLine) && PINString.equals(passLine)) {
                                 System.out.println("\n---------------------------------------");
                                 System.out.println("Welcome " + name + " " + surname + ".");
                                 global_Loop = true;
-                                ATMmain();
+                                UMbank();
                                 login_loop = false;
                                 break;
                             } else {
@@ -87,7 +84,7 @@ public class ATM {
                     } else {
                         CreateAcc();
                     }
-                    
+                }
             } catch (IOException e) {
             System.out.println("An error occurred.");
             e.printStackTrace();
@@ -96,6 +93,14 @@ public class ATM {
     }
     
     public static void CreateAcc() throws IOException {
+        
+        
+        IDFile.createNewFile();
+        PINFile.createNewFile();
+        nameFile.createNewFile();
+        surnameFile.createNewFile();
+        balanceFile.createNewFile();
+
         System.out.println("\nCREATE ACCOUNT:");
         System.out.print("Enter name:");
         name = InputScanner.next();
@@ -114,12 +119,12 @@ public class ATM {
         for (int i = 0; i < 6; i++) {
             IDInput += (int)Math.floor(Math.random() * 10);
         }
-        FileWriter IDWriter = new FileWriter("IDlist.txt", true);
-        FileWriter PINWriter = new FileWriter("PINlist.txt", true);
-        FileWriter nameWriter = new FileWriter("namelist.txt", true);
-        FileWriter surnameWriter = new FileWriter("surnamelist.txt", true);
-        FileWriter balanceWriter = new FileWriter("balanceFile.txt", true);
-        File TransactFile = new File(String.format("%s.txt", IDInput));
+        FileWriter IDWriter = new FileWriter(".\\Accounts\\IDlist.txt", true);
+        FileWriter PINWriter = new FileWriter(".\\Accounts\\PINlist.txt", true);
+        FileWriter nameWriter = new FileWriter(".\\Accounts\\namelist.txt", true);
+        FileWriter surnameWriter = new FileWriter(".\\Accounts\\surnamelist.txt", true);
+        FileWriter balanceWriter = new FileWriter(".\\Accounts\\balanceFile.txt", true);
+        File TransactFile = new File(String.format(".\\Accounts\\%s.txt", IDInput));
         TransactFile.createNewFile();
         IDWriter.write(IDInput + "\r\n" );
         PINWriter.write(PINInput + "\r\n" );
@@ -135,32 +140,32 @@ public class ATM {
     }
     public static void StoreBalance() throws IOException {
         balanceTempt = Double.toString(balance);
-        List<String> balanceSet = Files.readAllLines(Paths.get("balanceFile.txt"));
-        balanceSet.set(balanceLine -1, balanceTempt);
-        Files.write(Paths.get("balanceFile.txt"), balanceSet);
+        List<String> balanceSet = Files.readAllLines(Paths.get(".\\Accounts\\balanceFile.txt"));
+        balanceSet.set(balanceLine, balanceTempt);
+        Files.write(Paths.get(".\\Accounts\\balanceFile.txt"), balanceSet);
     }
     public static void storeTransaction(Date transDsate, String action, double old, String operation, double amount, double newBal) throws IOException {
         FileWriter TransactionWriter = new FileWriter(String.format("%s.txt", userLine), true);
         TransactionWriter.write(transDsate + " " + action + "$" + old + " " + operation + " " +  "$" + amount + " Balance: " + "$" + newBal + " " + "\r\n");
         TransactionWriter.close();
     }
-    public static void fileChecker() throws IOException {
-        File TransactFile = new File(String.format("%s.txt", IDInput));
-        if (!TransactFile.exists()) {
-            TransactFile.createNewFile();
-        }
-    }
+    // public static void fileChecker() throws IOException {
+    //     File TransactFile = new File(String.format("%s.txt", IDInput));
+    //     if (!TransactFile.exists()) {
+    //         TransactFile.createNewFile();
+    //     }
+    // }
     public static void withdraw() throws IOException {
         double oldBal = balance;
         balance -= amount;
         System.out.println("***************************************");
         System.out.println("You successfully withdrawn " + "$" + amount);
         System.out.println("***************************************");
-        fileChecker();
         StoreBalance();
         storeTransaction(currDate, "*Withdraw* ", oldBal, "-", amount, balance);
     }
-    public static void ATMmain() throws IOException {
+
+    public static void UMbank() throws IOException {
         while (global_Loop) {
             System.out.println("---------------------------------------");
             System.out.println("[1]Withdrawal\n[2]Deposit\n[3]Balance Inquiry\n[4]Transaction History\n[5]Exit");
@@ -210,7 +215,6 @@ public class ATM {
                         System.out.println("***************************************");
                         System.out.println("You deposited: " + "$" + deposit);
                         System.out.println("***************************************");
-                        fileChecker();
                         StoreBalance();
                         storeTransaction(currDate, "*Deposit* ", oldBal, "+", deposit, balance);
                     } else {
@@ -223,7 +227,6 @@ public class ATM {
                     System.out.println(".......................................");
                     break;
                 case 4:
-                    fileChecker();
                     System.out.println("\nTransaction History:");
                     System.out.println(".....................................................................");
                     List<String> transHistoryList = Files.readAllLines(Paths.get(String.format("%s.txt", userLine)));
