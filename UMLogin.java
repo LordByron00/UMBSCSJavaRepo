@@ -1,7 +1,3 @@
-/*Problem:
-Develop a program that will accept a username and password to log in for an account. 
-Afterward, determine whether a user is valid or not valid. The user is only valid if the username entered is “user” 
-and the password is “1234”. */
 import java.util.Scanner;
 
 public class UMLogin {

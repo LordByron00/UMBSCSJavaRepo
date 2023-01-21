@@ -1,8 +1,4 @@
-
-/*Problem:
- */
 import java.util.Scanner;
-
 public class tsumBagonTakaRonATM {
     private static double balance = 10000;
     private static String personal_Info = "Mr. Tsum Bagon Taka Ron";
