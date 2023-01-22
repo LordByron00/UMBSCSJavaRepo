@@ -2,16 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c20971ba-c155-4d46-8eef-9de05277895e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Intellij/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intellij/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intellij/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intellij/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intellij/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Intellij/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intellij/Intellij.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intellij/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intellij/src/fileHandling.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fileHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/fileHandling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phonebook.txt" beforeDir="false" afterPath="$PROJECT_DIR$/phonebook.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMBSCSJavaRepo" beforeDir="false" afterPath="$PROJECT_DIR$/UMBSCSJavaRepo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMBSCSJavaRepo/ATM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMBSCSJavaRepo/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMBSCSJavaRepo/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMBSCSJavaRepo/CodeTester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMBSCSJavaRepo/CompositeAndPrime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMBSCSJavaRepo/Febraine and Justine CCE Final Project Algorith.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMBSCSJavaRepo/HEAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMBSCSJavaRepo/LearningProcess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMBSCSJavaRepo/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMBSCSJavaRepo/PCSorter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMBSCSJavaRepo/ProductInventory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMBSCSJavaRepo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMBSCSJavaRepo/ReviewerTesting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMBSCSJavaRepo/SnakeGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMBSCSJavaRepo/StudentGradeEvaluator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMBSCSJavaRepo/UMATM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMBSCSJavaRepo/UMLogin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMBSCSJavaRepo/config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMBSCSJavaRepo/description" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMBSCSJavaRepo/fileHandling.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMBSCSJavaRepo/grades.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMBSCSJavaRepo/loginArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMBSCSJavaRepo/phonebook.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMBSCSJavaRepo/tsumBagonTakaRonATM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Repository/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/ATM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/CodeTester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/CompositeAndPrime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Intellij/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/LearningProcess.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/PCSorter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/ProductInventory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/ReviewerTesting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/SnakeGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/StudentGradeEvaluator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Testing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Triangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/UMATM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/UMLogin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/filereadingwriting/FileReadingWriting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/grades.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/loginArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/oddevenfilefunction/OddEvenFileFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/src/fileHandling.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/ter has no upstream branch.q" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/tsumBagonTakaRonATM.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +61,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/UMBSCSJavaRepo" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -41,13 +83,8 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
+    <configuration name="CodeTester" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value=".\CodeTester" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
