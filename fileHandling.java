@@ -1,3 +1,4 @@
+package src;
 
 import java.io.*;
 import java.util.Arrays;
@@ -69,7 +70,7 @@ public class fileHandling {
                             e.printStackTrace();
                         }
                     }
-   
+
                     break;
                 case 2:
 
@@ -78,15 +79,15 @@ public class fileHandling {
                         String dataValue;
                         int i = 0;
                         while((dataValue = br.readLine()) != null) {
-                             System.out.println(dataValue);
-                             if (i < data.length) {
+                            System.out.println(dataValue);
+                            if (i < data.length) {
                                 data[i] = dataValue.split(", ");
-                             }
-                             System.out.println(" " + i + " " + data.length);
+                            }
                             i++;
                         }
                         br.close();
-            
+//                        System.out.println(Arrays.deepToString(data));
+
                     } catch (IOException e) {
                         System.err.print("IOException error");
                         e.printStackTrace();
@@ -102,6 +103,7 @@ public class fileHandling {
                     table.setDefaultRenderer(Object.class, CenterRender);
                     break;
                 case 3:
+                    System.out.println("Good bye!");
                     looping = false;
                     break;
                 default:
