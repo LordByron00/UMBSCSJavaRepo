@@ -1,16 +1,22 @@
+import java.util.Arrays;
+
 public class CodeTester {
-    public static void main (String [] args)
+    public static void main (String[] args)
+
     {
-        int x = 0;
-        int y = 0;
-        for (int z = 0; z < 5; z++)
-        {
-            if((++y > 2) || (++x > 2))   // 2 > 2 = false 2 3 > 2
-            {
-                System.out.println(z + " " + x + " " + y);
-                x++;
-            }
-        }
-        System.out.println(x + " " + y);
+
+        int arr1[] = {1, 2, 3};
+
+        int arr2[] = {1, 2, 3};
+        float a = 60 / 0;
+
+        if (Arrays.equals(arr1, arr2))
+
+            System.out.println("Same");
+
+        else
+
+            System.out.println("Not same");
+
     }
 }

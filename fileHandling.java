@@ -8,7 +8,9 @@ import javax.swing.table.DefaultTableCellRenderer;
 
 
 public class fileHandling {
-    private static String name, birthday, gender;
+    private static String name;
+    private static String birthday;
+    private static String gender;
     private static int age, contactNum, person_Count, lineCounter = 0;
     private static boolean looping = true;
     public static void main(String[] args) {
@@ -25,6 +27,7 @@ public class fileHandling {
 
                     try {
                         // To find if there are informations already stored in the files through iterating if the file has next line.
+                        FileWriter wr = new FileWriter("phonebook.txt", true);
                         BufferedReader brLine = new BufferedReader(new FileReader("phonebook.txt"));
                         String textLine = brLine.readLine();
                         while (textLine != null) {
@@ -75,6 +78,10 @@ public class fileHandling {
                 case 2:
 
                     try {
+                        File exist = new File("phonebook.txt");
+                        if (!exist.exists()) {
+                            exist.createNewFile();
+                        }
                         BufferedReader br = new BufferedReader(new FileReader("phonebook.txt"));
                         String dataValue;
                         int i = 0;

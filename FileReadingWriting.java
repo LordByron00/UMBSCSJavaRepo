@@ -9,13 +9,12 @@ public static void main(String[] args) {
 		String menu[] = {"Add Data","View Data","Exit"};
 		String name = "", diagnosis = "", treatment = "", labtest="",option="";
 		int age = 0, payment = 0;
-		File file = new File("Patient Report.txt");
 		try{
-			FileWriter wr = new FileWriter(file, true);
+			FileWriter wr = new FileWriter(new File("Patient Report.txt"), true);
 			do{
-		option = JOptionPane.showInputDialog(null,"Select","Menu",1,null,menu,menu[0]).toString();
+		option = JOptionPane.showInputDialog(null,"Select","Menu",2,null,menu,menu[0]).toString();
 		switch(option){
-		case"Add Data":
+		case "Add Data":
 		
 		name = JOptionPane.showInputDialog("Enter your name: ");
 		wr.write("\n" + name);
