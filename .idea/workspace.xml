@@ -4,10 +4,8 @@
     <list default="true" id="c20971ba-c155-4d46-8eef-9de05277895e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/CodeTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FileReadingWriting.java" beforeDir="false" afterPath="$PROJECT_DIR$/FileReadingWriting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fileHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/fileHandling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/phonebook.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phonebook.txt" beforeDir="false" afterPath="$PROJECT_DIR$/phonebook.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/CodeTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Repository/CodeTester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/phonebook.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Repository/phonebook.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +24,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2KgWD2IBH8xQ4CaKDBT4vgUqQWt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
