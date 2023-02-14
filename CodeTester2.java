@@ -2,9 +2,8 @@ import javax.swing.*;
 import javax.swing.border.Border;
 import java.awt.*;
 
-public class CodeTester2 extends JFrame {
-    CodeTester2() {
-
+public class CodeTester2 {
+    public static void main(String[] args) {
         ImageIcon logo = new ImageIcon("Youtube.png");
         Border border = BorderFactory.createLineBorder(Color.white, 3);
 
@@ -23,22 +22,18 @@ public class CodeTester2 extends JFrame {
         label.setVerticalAlignment(JLabel.CENTER);
 //        label.setBounds(125, 125, 250, 250);
 
-        this.setTitle("Frame");
-        this.setSize(500, 500);
-//        this.setResizable(false);
-        this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
-        this.setVisible(true);
-        this.add(label);
-//        this.setLayout(null);
+        JFrame frame = new JFrame();
+        frame.setTitle("Frame");
+        frame.setSize(500, 500);
+//        frame.setResizable(false);
+        frame.setDefaultCloseOperation(frame.EXIT_ON_CLOSE);
+        frame.setVisible(true);
+        frame.add(label);
+//        frame.setLayout(null);
 
-        this.pack();
+        frame.pack();
 
-        this.setIconImage(logo.getImage());
-        this.getContentPane().setBackground(new Color(5,180, 200));
-
-    }
-
-    public static void main(String[] args) {
-
+        frame.setIconImage(logo.getImage());
+        frame.getContentPane().setBackground(new Color(5,180, 200));
     }
 }

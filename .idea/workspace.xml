@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c20971ba-c155-4d46-8eef-9de05277895e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeTester2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUITester.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUITester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UniversityEnrollmentSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowCodeBuilderTest.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowCodeBuilderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeTester.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhonesMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/PhonesMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Repository/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/CodeTester.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/PhonesMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Repository/PhonesMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeTester2.java" beforeDir="false" afterPath="$PROJECT_DIR$/CodeTester2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Patient Report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Patient Report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/CodeTester2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Repository/CodeTester2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Patient Report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Repository/Patient Report.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +21,9 @@
       </list>
     </option>
   </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -35,7 +31,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2KgWD2IBH8xQ4CaKDBT4vgUqQWt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -43,23 +39,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/nilsa/OneDrive/Documents/Lelouch/Java/LearningJava/Java Repository&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/nilsa/OneDrive/Documents/Lelouch/Java/LearningJava/Java Repository",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\nilsa\OneDrive\Documents\Lelouch\Java\LearningJava\Java Repository" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.fileHandling">
+  <component name="RunManager">
     <configuration name="CodeTester" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="CodeTester" />
       <module name="Java Repository" />
