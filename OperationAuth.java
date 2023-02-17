@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class CodeTester {
+public class OperationAuth {
     public static int addition(int x, int y) {
         int total = x + y;
         return total;
