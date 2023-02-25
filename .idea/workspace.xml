@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c20971ba-c155-4d46-8eef-9de05277895e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaProgress/generic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaProgress/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaProgress/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaProgress/Retriever.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaProgress/genericContainer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeTester.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeTester2.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaProgress/CodeTester2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Repository/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/CodeTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Repository/CodeTester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/CodeTester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/CodeTester2.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +57,7 @@
       <recent name="C:\Users\nilsa\OneDrive\Documents\Lelouch\Java\LearningJava\Java Repository" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CodeTester">
+  <component name="RunManager">
     <configuration name="CodeTester" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="JavaProgress.CodeTester" />
       <module name="Java Repository" />
