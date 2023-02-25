@@ -1,3 +1,5 @@
+package JavaProgress;
+
 import javax.swing.*;
 import javax.swing.border.Border;
 import java.awt.*;
@@ -34,6 +36,6 @@ public class CodeTester2 {
         frame.pack();
 
         frame.setIconImage(logo.getImage());
-        frame.getContentPane().setBackground(new Color(5,180, 200));
+        frame.getContentPane().setBackground(new Color(5, 180, 200));
     }
 }
