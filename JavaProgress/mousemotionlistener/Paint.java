@@ -17,7 +17,7 @@ public class Paint extends Frame implements MouseMotionListener {
 
         l = new Label();
 
-        l.setBounds(20, 40, 100, 20);
+        l.setBounds(20, 40, 200, 20);
 
         add(l);
 
@@ -35,7 +35,7 @@ public class Paint extends Frame implements MouseMotionListener {
 
     public void mouseDragged(MouseEvent e) {
 
-        l.setText("X=" + e.getX() + ", Y=" + e.getY());
+        l.setText("Dragging: X=" + e.getX() + ", Y=" + e.getY());
 
         Graphics g = getGraphics();
 
@@ -47,7 +47,12 @@ public class Paint extends Frame implements MouseMotionListener {
 
     public void mouseMoved(MouseEvent e) {
 
-        l.setText("X=" + e.getX() + ", Y=" + e.getY());
+        l.setText("Moving: X=" + e.getX() + ", Y=" + e.getY());
+        Graphics g = getGraphics();
+
+        g.setColor(Color.BLUE);
+
+        g.fillOval(e.getX(), e.getY(), 20, 20);
 
     }
 
