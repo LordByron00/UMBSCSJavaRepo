@@ -1,14 +1,14 @@
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-import java.sql.*;
+//import java.sql.*;
 
 public class UniversityEnrollmentSystem extends JFrame implements ActionListener {
     private JLabel lblName, lblID, lblDepartment, lblCGPA, lblResult;
     private JTextField txtName, txtID, txtDepartment, txtCGPA;
     private JButton btnSubmit, btnReset;
-    private Connection conn = null;
-    private PreparedStatement pst = null;
+//    private Connection conn = null;
+//    private PreparedStatement pst = null;
 
     public UniversityEnrollmentSystem() {
         setTitle("University Enrollment System");

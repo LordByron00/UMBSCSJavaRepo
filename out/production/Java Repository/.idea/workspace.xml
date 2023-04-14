@@ -2,21 +2,222 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c20971ba-c155-4d46-8eef-9de05277895e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/crudfilejava/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crudfilejava/EmployeeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crudfilejava/StudentDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crudfilejava/students.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/printing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/printing2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/report.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/report2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/reset.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/reset2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaProgress/BurgerGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaProgress/KeyLogger/KeyLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaProgress/LayoutManager/flow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaProgress/popWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaProgress/timer/TimerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javava/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javava/chat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javava/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javava/src/CCEFinalProject/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javava/src/Contridas/LogIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javava/src/Contridas/OfficialLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javava/src/Contridas/cashering.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javava/src/FinalProject/burger1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javava/src/FinalProject/burgers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javava/src/GUIReceipt/ThisFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javava/src/Java/ThisFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javava/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/officiallogin/Login2.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/officiallogin/Login2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-console-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-console-l1-2-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-datetime-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-debug-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-errorhandling-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-file-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-file-l1-2-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-file-l2-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-handle-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-heap-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-interlocked-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-libraryloader-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-localization-l1-2-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-memory-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-namedpipe-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-processenvironment-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-processthreads-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-processthreads-l1-1-1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-profile-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-rtlsupport-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-string-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-synch-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-synch-l1-2-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-sysinfo-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-timezone-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-util-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-conio-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-convert-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-environment-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-filesystem-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-heap-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-locale-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-math-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-multibyte-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-private-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-process-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-runtime-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-stdio-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-string-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-time-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-utility-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/decora_sse.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/fxplugins.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/glass.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/glib-lite.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/gstreamer-lite.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/javafx_font.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/javafx_iio.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/jfxmedia.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/jfxwebkit.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/msvcp140.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/msvcp140_1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/msvcp140_2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/prism_common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/prism_d3d.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/prism_sw.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/ucrtbase.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/vcruntime140.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/vcruntime140_1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.base/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.base/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.base/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.controls/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.controls/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.controls/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.fxml/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.fxml/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.fxml/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.graphics/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.graphics/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.graphics/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.graphics/jpeg_fx.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.graphics/mesa3d.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.media/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.media/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.media/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.media/directshow.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.media/glib.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.media/gstreamer.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.media/libffi.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.swing/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.swing/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.swing/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.web/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.web/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.web/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.web/icu_web.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.web/libxml2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.web/libxslt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.web/webkit.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib/javafx-swt.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib/javafx.base.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib/javafx.controls.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib/javafx.fxml.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib/javafx.graphics.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib/javafx.media.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib/javafx.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib/javafx.swing.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib/javafx.web.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/src.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUITester.java" beforeDir="false" afterPath="$PROJECT_DIR$/GUITester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Repository.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java Repository.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UniversityEnrollmentSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/UniversityEnrollmentSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowCodeBuilderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/WindowCodeBuilderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Repository/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java Repository/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Repository/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/ATM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/CompositeAndPrime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/GUITester$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/GUITester$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/GUITester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Java Repository.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Repository/Java Repository.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/JavaProgress/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/JavaProgress/CodeTester2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/JavaProgress/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/JavaProgress/Retriever.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/JavaProgress/generic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/JavaProgress/genericContainer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/JavaProgress/genericMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/JavaProgress/keylistener/KeyListenerExample1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/JavaProgress/keylistener/KeyListenerExample2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/JavaProgress/mouselistener/MouseListenerExample1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/JavaProgress/mouselistener/MouseListenerExample2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/JavaProgress/mousemotionlistener/MouseMotionListenerExample1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/JavaProgress/mousemotionlistener/Paint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/LearningProcess.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/LoopingSwitch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/OperationAuth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/PCSorter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/PhonesMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/ProductInventory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Quiz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/ReviewerTesting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/SnakeGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/StudentGradeEvaluator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Testing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/ThreeCases.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Triangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/UMATM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/UMGradingSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/UMInputGrade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/UMLogin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/UniversityEnrollmentSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/WindowCodeBuilderTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/WindowCodeBuilderTest$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/WindowCodeBuilderTest$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/WindowCodeBuilderTest$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/WindowCodeBuilderTest$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/WindowCodeBuilderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/code.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/crudfilejava/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/crudfilejava/EmployeeDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/crudfilejava/EmployeeDemo$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/crudfilejava/EmployeeDemo$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/crudfilejava/EmployeeDemo$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/crudfilejava/EmployeeDemo$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/crudfilejava/EmployeeDemo$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/crudfilejava/EmployeeDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/crudfilejava/StudentDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/crudfilejava/students.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/faze.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/filereadingwriting/FileReadingWriting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/grades.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/loginArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/loopingInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/oddevenfilefunction/OddEvenFileFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/officiallogin/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/officiallogin/OfficialLogIn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/officiallogin/loginAddition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/src/fileHandling.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/swingOperations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/tsumBagonTakaRonATM.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -34,21 +235,27 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2KgWD2IBH8xQ4CaKDBT4vgUqQWt" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/nilsa/OneDrive/Documents/Lelouch/Java/LearningJava/Java Repository&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -60,13 +267,74 @@
     <configuration name="CodeTester" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="JavaProgress.CodeTester" />
       <module name="Java Repository" />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WindowCodeBuilderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WindowCodeBuilderTest" />
+    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="officiallogin.Login" />
       <module name="Java Repository" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="officiallogin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThisFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CCE.ThisFrame" />
+      <module name="Java Repository" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CCE.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgress.timer.TimerApp" />
+      <module name="Java Repository" />
+      <option name="VM_PARAMETERS" value="--module-path $PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaProgress.timer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cashering" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Contridas.cashering" />
+      <module name="Java Repository" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Contridas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -84,10 +352,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.CodeTester" />
+      <item itemvalue="Application.cashering" />
+      <item itemvalue="Application.fileHandling" />
+      <item itemvalue="Application.Login" />
+      <item itemvalue="Application.ThisFrame" />
+      <item itemvalue="Application.TimerApp" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TimerApp" />
+        <item itemvalue="Application.cashering" />
+        <item itemvalue="Application.Login" />
+        <item itemvalue="Application.ThisFrame" />
         <item itemvalue="Application.fileHandling" />
-        <item itemvalue="Application.WindowCodeBuilderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -112,6 +391,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Java_Repository$PhonesMenu.ic" NAME="PhonesMenu Coverage Results" MODIFIED="1675183477011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
