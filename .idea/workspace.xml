@@ -2,115 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c20971ba-c155-4d46-8eef-9de05277895e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaProgress/Polymorphism/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaProgress/Polymorphism/Blender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaProgress/Polymorphism/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaProgress/Polymorphism/Orange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaProgress/Polymorphism/fruits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaProgress/Polymorphism/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaProgress/Polymorphism/MonsterGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaProgress/Polymorphism/Vampire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaProgress/Polymorphism/Wolf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaProgress/timer/TimerApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Repository/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Repository/Javava/file.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-console-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-console-l1-2-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-datetime-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-debug-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-errorhandling-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-file-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-file-l1-2-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-file-l2-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-handle-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-heap-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-interlocked-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-libraryloader-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-localization-l1-2-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-memory-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-namedpipe-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-processenvironment-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-processthreads-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-processthreads-l1-1-1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-profile-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-rtlsupport-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-string-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-synch-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-synch-l1-2-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-sysinfo-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-timezone-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-util-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-conio-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-convert-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-environment-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-filesystem-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-heap-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-locale-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-math-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-multibyte-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-private-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-process-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-runtime-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-stdio-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-string-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-time-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-utility-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/decora_sse.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/fxplugins.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/glass.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/glib-lite.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/gstreamer-lite.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/javafx_font.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/javafx_iio.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/jfxmedia.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/jfxwebkit.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/msvcp140.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/msvcp140_1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/msvcp140_2.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/prism_common.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/prism_d3d.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/prism_sw.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/ucrtbase.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/vcruntime140.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/vcruntime140_1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.base/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.base/ASSEMBLY_EXCEPTION" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.base/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.controls/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.controls/ASSEMBLY_EXCEPTION" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.controls/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.fxml/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.fxml/ASSEMBLY_EXCEPTION" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.fxml/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.graphics/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.graphics/ASSEMBLY_EXCEPTION" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.graphics/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.graphics/jpeg_fx.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.graphics/mesa3d.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.media/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.media/ASSEMBLY_EXCEPTION" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.media/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.media/directshow.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.media/glib.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.media/gstreamer.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.media/libffi.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.swing/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.swing/ASSEMBLY_EXCEPTION" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.swing/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.web/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.web/ASSEMBLY_EXCEPTION" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.web/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.web/icu_web.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.web/libxml2.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.web/libxslt.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.web/webkit.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib/javafx-swt.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib/javafx.base.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib/javafx.controls.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib/javafx.fxml.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib/javafx.graphics.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib/javafx.media.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib/javafx.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib/javafx.swing.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib/javafx.web.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/src.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -306,6 +202,9 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Java_Repository$MonsterGame.ic" NAME="MonsterGame Coverage Results" MODIFIED="1682104458289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>JavaProgress.Polymorphism.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/Java_Repository$PhonesMenu.ic" NAME="PhonesMenu Coverage Results" MODIFIED="1675183477011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Java_Repository$CodeTester2.ic" NAME="CodeTester2 Coverage Results" MODIFIED="1675760520480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
