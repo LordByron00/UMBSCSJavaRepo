@@ -37,7 +37,6 @@ public class audio {
                     System.out.println("Invalid menu choice!");
             }
         }
-        System.out.print("Music session ended.");
 
 
     }
