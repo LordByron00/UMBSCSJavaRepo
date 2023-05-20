@@ -2,12 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c20971ba-c155-4d46-8eef-9de05277895e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaProgress/Polymorphism/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaProgress/Polymorphism/Blender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaProgress/Polymorphism/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaProgress/Polymorphism/Orange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaProgress/Polymorphism/fruits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/finalprojectgrp3_730-900mth.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/CORBA/WORDYGameMethods.idl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/Client_Java/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/Client_Java/View.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/Client_Java/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/Client_Java/logIn.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/Client_Java/logIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/Client_Java/menu.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/Client_Java/menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/Client_Java/topLongestWords.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/Client_Java/topLongestWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/Client_Java/topPlayers.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/Client_Java/topPlayers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/Server_Java/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/Server_Java/Servant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/Server_Java/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/Server_Java/Utility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/Server_Java/driver/mysql-connector-java-8.0.29.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/Server_Java/words.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/AccountAlreadyLoggedIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/AccountAlreadyLoggedInHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/AccountAlreadyLoggedInHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/GameStartFailed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/GameStartFailedHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/GameStartFailedHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/InvalidPasswordException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/InvalidPasswordExceptionHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/InvalidPasswordExceptionHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/UserNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/UserNotFoundExceptionHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/UserNotFoundExceptionHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/WORDYGameMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/WORDYGameMethodsHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/WORDYGameMethodsHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/WORDYGameMethodsOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/WORDYGameMethodsPOA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/WordInvalid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/WordInvalidHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/WordInvalidHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/WrongCredentials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/WrongCredentialsHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/WrongCredentialsHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/_WORDYGameMethodsStub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/longestWordsHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/longestWordsHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/randomLettersHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/randomLettersHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/topPlayersHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/topPlayersHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/wordsHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/wordsHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/exc/InvalidPasswordException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/exc/UserNotFoundException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/officiallogin/Login2.java" beforeDir="false" afterPath="$PROJECT_DIR$/officiallogin/Login2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,11 +108,11 @@
     &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/nilsa/OneDrive/Documents/Lelouch/Java/LearningJava/Java Repository&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -203,6 +257,9 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Java_Repository$MonsterGame.ic" NAME="MonsterGame Coverage Results" MODIFIED="1682104458289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>JavaProgress.Polymorphism.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/Java_Repository$PhonesMenu.ic" NAME="PhonesMenu Coverage Results" MODIFIED="1675183477011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Java_Repository$CodeTester2.ic" NAME="CodeTester2 Coverage Results" MODIFIED="1675760520480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>

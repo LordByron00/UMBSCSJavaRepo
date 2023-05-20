@@ -1,0 +1,59 @@
+module WORDYGame {
+    typedef sequence<string> words;
+    typedef sequence<string> topPlayers;
+    typedef sequence<string> longestWords;
+    typedef sequence<char> randomLetters;
+    exception UserNotFoundException{
+        string reason;
+        };
+
+    exception InvalidPasswordException{
+        string reason;
+        };
+
+    exception WrongCredentials{
+        string reason;
+        };
+
+    exception AccountAlreadyLoggedIn {
+        string reason;
+        };
+
+    exception GameStartFailed {
+        string reason;
+        };
+
+    exception WordInvalid {
+        string reason;
+        };
+
+    interface WORDYGameMethods {
+        void login(in string username, in string password) raises (AccountAlreadyLoggedIn, InvalidPasswordException, WrongCredentials);
+
+        void joinGame() raises (GameStartFailed);
+
+        long getTime(in string username);
+
+        words getPlayers(in long gameID);
+
+        randomLetters sendLetters(in string username);
+
+        void initialize(in long gameID);
+
+        attribute boolean gameStarted;
+
+        void submitWord(in string username, in string word) raises (WordInvalid);
+
+        words getSubmittedWords(in long gameID);
+
+        string roundWinner(in long gameID);
+
+        string wordyWinner(in long gameID);
+
+        longestWords displayLongestWords(in string username);
+
+        topPlayers displayTopPlayers(in string username);
+
+        void logout(in string username);
+    };
+};
