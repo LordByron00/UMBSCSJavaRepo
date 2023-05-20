@@ -16,6 +16,7 @@ public class audio {
 
         boolean MusicMenuLoop = true;
         while (MusicMenuLoop) {
+            System.out.print(":");
             String x = console.nextLine();
             x = x.toUpperCase();
             switch (x) {
@@ -33,10 +34,10 @@ public class audio {
                     MusicMenuLoop = false;
                     break;
                 default:
-                    System.out.print("Music session ended.");
-                    MusicMenuLoop = false;
+                    System.out.println("Invalid menu choice!");
             }
         }
+        System.out.print("Music session ended.");
 
 
     }
