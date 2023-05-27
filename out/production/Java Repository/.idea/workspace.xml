@@ -1,67 +1,665 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c20971ba-c155-4d46-8eef-9de05277895e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/finalprojectgrp3_730-900mth.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/CORBA/WORDYGameMethods.idl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/Client_Java/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/Client_Java/View.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/Client_Java/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/Client_Java/logIn.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/Client_Java/logIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/Client_Java/menu.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/Client_Java/menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/Client_Java/topLongestWords.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/Client_Java/topLongestWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/Client_Java/topPlayers.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/Client_Java/topPlayers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/Server_Java/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/Server_Java/Servant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/Server_Java/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/Server_Java/Utility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/Server_Java/driver/mysql-connector-java-8.0.29.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/Server_Java/words.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/AccountAlreadyLoggedIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/AccountAlreadyLoggedInHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/AccountAlreadyLoggedInHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/GameStartFailed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/GameStartFailedHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/GameStartFailedHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/InvalidPasswordException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/InvalidPasswordExceptionHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/InvalidPasswordExceptionHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/UserNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/UserNotFoundExceptionHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/UserNotFoundExceptionHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/WORDYGameMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/WORDYGameMethodsHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/WORDYGameMethodsHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/WORDYGameMethodsOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/WORDYGameMethodsPOA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/WordInvalid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/WordInvalidHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/WordInvalidHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/WrongCredentials.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/WrongCredentialsHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/WrongCredentialsHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/_WORDYGameMethodsStub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/longestWordsHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/longestWordsHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/randomLettersHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/randomLettersHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/topPlayersHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/topPlayersHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/wordsHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/WORDYGame/wordsHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/exc/InvalidPasswordException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalprojectgrp3_730-900mth/src/exc/UserNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/JavaFx.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/ATM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/BMIClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/CompositeAndPrime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/Example.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/Febraine and Justine CCE Final Project Algorith.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/FileReadingWriting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/LearningProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/Logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/LoopingSwitch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/OddEvenFileFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/OperationAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/PCSorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/Patient Report.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/PhonesMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/ProductInventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/Quiz.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/Quiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/ReviewerTesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/SnakeGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/StudentGradeEvaluator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/Students.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/Test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/ThreeCases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/UMATM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/UMGradingSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/UMInputGrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/UMLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/UniversityEnrollmentSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/YouTube.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/YouTube.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/code.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/employee.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/faze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/fileHandling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/grades.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/loginArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/loopingInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/phonebook.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/swingOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/Activities/tsumBagonTakaRonATM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/ico/ad1d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/ico/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/ico/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/ico/delete2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/ico/eraser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/ico/eraser2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/ico/printing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/ico/printing2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/ico/report.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/ico/report2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/ico/reset.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/ico/reset2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/ico/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCE/ico/user2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaProgress/GUI/JavaFxTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaProgress/GUI/Music_Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaProgress/GUI/Test.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaProgress/GUI/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaProgress/Threading/CrystallBall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaProgress/Threading/FortuneTeller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaProgress/Threading/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Intellij.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_291.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CCE/ad1d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CCE/add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CCE/delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CCE/delete2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CCE/eraser.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CCE/eraser2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CCE/printing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CCE/printing2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CCE/report.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CCE/report2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CCE/reset.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CCE/reset2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CCE/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CCE/user2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompositeAndPrime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Example.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Febraine and Justine CCE Final Project Algorith.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileReadingWriting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUITester.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUITester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Repository.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java Repository.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Repository1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgress/GUI/GUI.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgress/GUI/GUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgress/audio.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaProgress/audio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/Users.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/cart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/chat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/CartList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/Heisenburger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/ImageRenderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/Menuas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/Ordered.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/Payment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/Register.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/TableExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/addedToCart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/burgers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/cart.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/loginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/resources/335570490_172502538973642_5221280514944149483_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/resources/335601317_1598649553893865_2793334340963139900_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/resources/336157413_1744845229250561_3813909182104920334_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/resources/BPI.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/resources/Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/resources/Logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/resources/Logo3small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/resources/Metro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/resources/burger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/resources/burger2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/resources/burger3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/resources/cart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/resources/check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/resources/flyingfood.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/resources/flyingfood2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/resources/gcash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/resources/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/resources/itemCombo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/resources/itemCombo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/resources/itemCombo3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/resources/itemDrink1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/resources/itemDrink2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/resources/itemDrink3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/resources/itemburger1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/resources/itemburger2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/resources/itemburger3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/resources/print.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/resources/prof.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/resources/ss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/resources/visa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/resources/visamaster.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/resources/walter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/CCEFinalProject/users.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/Contridas/LogIn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/Contridas/OfficialLogin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/Contridas/cashering.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/FinalProject/FoodDeliverySystemGUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/FinalProject/GUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/FinalProject/Heisenberg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/FinalProject/Heisenburger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/FinalProject/LoginGUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/FinalProject/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/FinalProject/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/FinalProject/Ordered.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/FinalProject/PopupWindowExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/FinalProject/RegisterGUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/FinalProject/RegisterUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/FinalProject/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/FinalProject/addedToCart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/FinalProject/burger1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/FinalProject/burgers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/FinalProject/loginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/FinalProject/pics/Sprite-PNG-Picture (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/FinalProject/pics/breakfast burger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/FinalProject/pics/cheeseburger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/FinalProject/pics/chicken burger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/FinalProject/pics/club sandwich.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/FinalProject/pics/coke.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/FinalProject/pics/combomeal1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/FinalProject/pics/combomeal2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/FinalProject/pics/fries.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/FinalProject/pics/icons8-shopping-cart-24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/FinalProject/pics/minus (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/FinalProject/pics/plus-math.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/FinalProject/pics/royal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/FinalProject/pics/vegan burger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/GUIReceipt/ThisFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javava/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearningProcess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoopingSwitch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OddEvenFileFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OperationAuth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PCSorter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Patient Report.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhonesMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductInventory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quiz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quiz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReviewerTesting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SnakeGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentGradeEvaluator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeCases.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMATM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMGradingSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMInputGrade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMLogin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UniversityEnrollmentSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowCodeBuilderTest.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowCodeBuilderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTube.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTube.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_19/_19.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_19/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faze.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fileHandling.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grades.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loopingInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loopingInput.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/officiallogin/Login2.java" beforeDir="false" afterPath="$PROJECT_DIR$/officiallogin/Login2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Repository/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Repository/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/CCE/ad1d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/CCE/add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/CCE/delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/CCE/delete2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/CCE/eraser.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/CCE/eraser2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/CCE/printing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/CCE/printing2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/CCE/report.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/CCE/report2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/CCE/reset.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/CCE/reset2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/CCE/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/CCE/user2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Example.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Febraine and Justine CCE Final Project Algorith.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Java Repository.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Repository/Java Repository.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/Users.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/cart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/chat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/CCEFinalProject/cart.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/CCEFinalProject/file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/CCEFinalProject/resources/335570490_172502538973642_5221280514944149483_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/CCEFinalProject/resources/335601317_1598649553893865_2793334340963139900_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/CCEFinalProject/resources/336157413_1744845229250561_3813909182104920334_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/CCEFinalProject/resources/BPI.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/CCEFinalProject/resources/Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/CCEFinalProject/resources/Logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/CCEFinalProject/resources/Logo3small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/CCEFinalProject/resources/Metro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/CCEFinalProject/resources/burger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/CCEFinalProject/resources/burger2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/CCEFinalProject/resources/burger3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/CCEFinalProject/resources/cart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/CCEFinalProject/resources/check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/CCEFinalProject/resources/flyingfood.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/CCEFinalProject/resources/flyingfood2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/CCEFinalProject/resources/gcash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/CCEFinalProject/resources/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/CCEFinalProject/resources/itemCombo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/CCEFinalProject/resources/itemCombo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/CCEFinalProject/resources/itemCombo3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/CCEFinalProject/resources/itemDrink1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/CCEFinalProject/resources/itemDrink2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/CCEFinalProject/resources/itemDrink3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/CCEFinalProject/resources/itemburger1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/CCEFinalProject/resources/itemburger2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/CCEFinalProject/resources/itemburger3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/CCEFinalProject/resources/print.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/CCEFinalProject/resources/prof.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/CCEFinalProject/resources/ss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/CCEFinalProject/resources/visa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/CCEFinalProject/resources/visamaster.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/CCEFinalProject/resources/walter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/CCEFinalProject/users.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/FinalProject/burger1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/FinalProject/pics/Sprite-PNG-Picture (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/FinalProject/pics/breakfast burger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/FinalProject/pics/cheeseburger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/FinalProject/pics/chicken burger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/FinalProject/pics/club sandwich.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/FinalProject/pics/coke.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/FinalProject/pics/combomeal1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/FinalProject/pics/combomeal2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/FinalProject/pics/fries.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/FinalProject/pics/icons8-shopping-cart-24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/FinalProject/pics/minus (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/FinalProject/pics/plus-math.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/FinalProject/pics/royal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/src/FinalProject/pics/vegan burger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Javava/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Patient Report.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Students.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/Test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/YouTube.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/YouTube.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Repository/com/intellij/uiDesigner/core/AbstractLayout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Repository/com/intellij/uiDesigner/core/DimensionInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Repository/com/intellij/uiDesigner/core/GridConstraints.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Repository/com/intellij/uiDesigner/core/GridLayoutManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Repository/com/intellij/uiDesigner/core/HorizontalInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Repository/com/intellij/uiDesigner/core/LayoutState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Repository/com/intellij/uiDesigner/core/Spacer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Repository/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Repository/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/com/intellij/uiDesigner/core/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Repository/com/intellij/uiDesigner/core/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Repository/com/intellij/uiDesigner/core/VerticalInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/employee.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/finalprojectgrp3_730-900mth/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/finalprojectgrp3_730-900mth/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/finalprojectgrp3_730-900mth/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/finalprojectgrp3_730-900mth/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/finalprojectgrp3_730-900mth/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/finalprojectgrp3_730-900mth/finalprojectgrp3_730-900mth.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/finalprojectgrp3_730-900mth/src/CORBA/WORDYGameMethods.idl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/finalprojectgrp3_730-900mth/src/Server_Java/driver/mysql-connector-java-8.0.29.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/finalprojectgrp3_730-900mth/src/Server_Java/words.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/phonebook.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/.idea/ChatGPTCopilotChannelManager.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/.idea/libraries/lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/.idea/libraries/mysql_connector_java_8_0_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/.idea/libraries/mysql_connector_java_8_0_291.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/ATM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Accounts/IDlist.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Accounts/PINlist.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Accounts/balanceFile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Accounts/namelist.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Accounts/surnamelist.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCE/ad1d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCE/add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCE/delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCE/delete2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCE/eraser.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCE/eraser2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCE/printing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCE/printing2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCE/report.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCE/report2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCE/reset.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCE/reset2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCE/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCE/user2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCEFinalProject/CartList$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCEFinalProject/CartList$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCEFinalProject/CartList$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCEFinalProject/CartList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCEFinalProject/Heisenburger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCEFinalProject/ImageRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCEFinalProject/Login$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCEFinalProject/Login$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCEFinalProject/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCEFinalProject/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCEFinalProject/Menu$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCEFinalProject/Menu$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCEFinalProject/Menu$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCEFinalProject/Menu$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCEFinalProject/Menu$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCEFinalProject/Menu$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCEFinalProject/Menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCEFinalProject/Menuas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCEFinalProject/Ordered.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCEFinalProject/Payment$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCEFinalProject/Payment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCEFinalProject/Register$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCEFinalProject/Register$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCEFinalProject/Register$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCEFinalProject/Register.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCEFinalProject/TableExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCEFinalProject/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCEFinalProject/addedToCart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCEFinalProject/burgers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CCEFinalProject/loginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/CompositeAndPrime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Contridas/LogIn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Contridas/OfficialLogin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Contridas/cashering$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Contridas/cashering$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Contridas/cashering$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Contridas/cashering$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Contridas/cashering$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Contridas/cashering$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Contridas/cashering.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Example.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Febraine and Justine CCE Final Project Algorith.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/FinalProject/FoodDeliverySystemGUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/FinalProject/GUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/FinalProject/Heisenberg$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/FinalProject/Heisenberg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/FinalProject/Heisenburger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/FinalProject/LoginGUI$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/FinalProject/LoginGUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/FinalProject/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/FinalProject/Menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/FinalProject/Ordered.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/FinalProject/PopupWindowExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/FinalProject/RegisterGUI$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/FinalProject/RegisterGUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/FinalProject/RegisterUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/FinalProject/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/FinalProject/addedToCart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/FinalProject/burgers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/FinalProject/loginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/GUIReceipt/ThisFrame$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/GUIReceipt/ThisFrame$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/GUIReceipt/ThisFrame$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/GUIReceipt/ThisFrame$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/GUIReceipt/ThisFrame$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/GUIReceipt/ThisFrame$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/GUIReceipt/ThisFrame$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/GUIReceipt/ThisFrame$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/GUIReceipt/ThisFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/GUITester$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/GUITester$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/GUITester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/HEAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Intellij.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Java Repository.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Java Repository1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/JavaProgress/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/JavaProgress/BurgerGUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/JavaProgress/CodeTester2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/JavaProgress/GUI/GUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/JavaProgress/KeyLogger/KeyLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/JavaProgress/LayoutManager/flow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/JavaProgress/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/JavaProgress/Polymorphism/Apple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/JavaProgress/Polymorphism/Blender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/JavaProgress/Polymorphism/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/JavaProgress/Polymorphism/Monster.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/JavaProgress/Polymorphism/MonsterGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/JavaProgress/Polymorphism/Orange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/JavaProgress/Polymorphism/Vampire.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/JavaProgress/Polymorphism/Wolf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/JavaProgress/Polymorphism/fruits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/JavaProgress/Retriever.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/JavaProgress/audio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/JavaProgress/generic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/JavaProgress/genericContainer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/JavaProgress/genericMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/JavaProgress/keylistener/KeyListenerExample1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/JavaProgress/keylistener/KeyListenerExample2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/JavaProgress/mouselistener/MouseListenerExample1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/JavaProgress/mouselistener/MouseListenerExample2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/JavaProgress/mousemotionlistener/MouseMotionListenerExample1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/JavaProgress/mousemotionlistener/Paint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/JavaProgress/popWindow$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/JavaProgress/popWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/Users.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/cart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/chat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/CCEFinalProject/cart.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/CCEFinalProject/file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/CCEFinalProject/resources/335570490_172502538973642_5221280514944149483_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/CCEFinalProject/resources/335601317_1598649553893865_2793334340963139900_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/CCEFinalProject/resources/336157413_1744845229250561_3813909182104920334_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/CCEFinalProject/resources/BPI.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/CCEFinalProject/resources/Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/CCEFinalProject/resources/Logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/CCEFinalProject/resources/Logo3small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/CCEFinalProject/resources/Metro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/CCEFinalProject/resources/burger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/CCEFinalProject/resources/burger2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/CCEFinalProject/resources/burger3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/CCEFinalProject/resources/cart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/CCEFinalProject/resources/check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/CCEFinalProject/resources/flyingfood.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/CCEFinalProject/resources/flyingfood2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/CCEFinalProject/resources/gcash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/CCEFinalProject/resources/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/CCEFinalProject/resources/itemCombo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/CCEFinalProject/resources/itemCombo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/CCEFinalProject/resources/itemCombo3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/CCEFinalProject/resources/itemDrink1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/CCEFinalProject/resources/itemDrink2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/CCEFinalProject/resources/itemDrink3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/CCEFinalProject/resources/itemburger1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/CCEFinalProject/resources/itemburger2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/CCEFinalProject/resources/itemburger3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/CCEFinalProject/resources/print.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/CCEFinalProject/resources/prof.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/CCEFinalProject/resources/ss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/CCEFinalProject/resources/visa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/CCEFinalProject/resources/visamaster.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/CCEFinalProject/resources/walter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/CCEFinalProject/users.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/FinalProject/burger1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/FinalProject/pics/Sprite-PNG-Picture (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/FinalProject/pics/breakfast burger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/FinalProject/pics/cheeseburger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/FinalProject/pics/chicken burger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/FinalProject/pics/club sandwich.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/FinalProject/pics/coke.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/FinalProject/pics/combomeal1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/FinalProject/pics/combomeal2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/FinalProject/pics/fries.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/FinalProject/pics/icons8-shopping-cart-24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/FinalProject/pics/minus (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/FinalProject/pics/plus-math.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/FinalProject/pics/royal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/src/FinalProject/pics/vegan burger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Javava/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/LearningProcess.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/LoopingSwitch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/OperationAuth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/PCSorter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Patient Report.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/PhonesMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/ProductInventory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Quiz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/ReviewerTesting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/SnakeGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/StudentGradeEvaluator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Students.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Testing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/ThreeCases.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/Triangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/UMATM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/UMGradingSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/UMInputGrade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/UMLogin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/UniversityEnrollmentSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/WindowCodeBuilderTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/WindowCodeBuilderTest$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/WindowCodeBuilderTest$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/WindowCodeBuilderTest$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/WindowCodeBuilderTest$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/WindowCodeBuilderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/YouTube.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/YouTube.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/code.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/com/intellij/uiDesigner/core/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/description" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/employee.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/faze.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/filereadingwriting/FileReadingWriting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/grades.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/hooks/applypatch-msg.sample" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/hooks/commit-msg.sample" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/hooks/crudfilejava/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/hooks/crudfilejava/EmployeeDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/hooks/crudfilejava/EmployeeDemo$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/hooks/crudfilejava/EmployeeDemo$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/hooks/crudfilejava/EmployeeDemo$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/hooks/crudfilejava/EmployeeDemo$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/hooks/crudfilejava/EmployeeDemo$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/hooks/crudfilejava/EmployeeDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/hooks/crudfilejava/StudentDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/hooks/crudfilejava/students.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/hooks/fsmonitor-watchman.sample" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/hooks/post-update.sample" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/hooks/pre-applypatch.sample" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/hooks/pre-commit.sample" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/hooks/pre-merge-commit.sample" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/hooks/pre-push.sample" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/hooks/pre-rebase.sample" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/hooks/pre-receive.sample" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/hooks/prepare-commit-msg.sample" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/hooks/push-to-checkout.sample" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/hooks/update.sample" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/info/exclude" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/loginArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/loopingInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/oddevenfilefunction/OddEvenFileFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/officiallogin/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/officiallogin/Login2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/officiallogin/Login2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/officiallogin/OfficialLogIn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/officiallogin/loginAddition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/phonebook.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/src/fileHandling.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/swingOperations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Repository1/tsumBagonTakaRonATM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Java Repository/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Java Repository/com/intellij/uiDesigner/core/AbstractLayout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Java Repository/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Java Repository/com/intellij/uiDesigner/core/DimensionInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Java Repository/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Java Repository/com/intellij/uiDesigner/core/GridConstraints.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Java Repository/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Java Repository/com/intellij/uiDesigner/core/GridLayoutManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Java Repository/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Java Repository/com/intellij/uiDesigner/core/HorizontalInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Java Repository/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Java Repository/com/intellij/uiDesigner/core/LayoutState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Java Repository/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Java Repository/com/intellij/uiDesigner/core/Spacer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Java Repository/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Java Repository/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Java Repository/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Java Repository/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Java Repository/com/intellij/uiDesigner/core/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Java Repository/com/intellij/uiDesigner/core/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Java Repository/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Java Repository/com/intellij/uiDesigner/core/VerticalInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Java Repository1/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Java Repository1/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Java Repository1/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Java Repository1/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Java Repository1/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Java Repository1/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Java Repository1/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Java Repository1/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Java Repository1/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Java Repository1/com/intellij/uiDesigner/core/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Java Repository1/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phonebook.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swingOperations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsumBagonTakaRonATM.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +673,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="JavaFXApplication" />
         <option value="Class" />
       </list>
     </option>
@@ -106,24 +705,37 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/nilsa/OneDrive/Documents/Lelouch/Java/LearningJava/Java Repository&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;last.edited.regexp&quot;: &quot;asdasdasd&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/nilsa/OneDrive/Documents/Lelouch/Java/LearningJava&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JavaFX&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="JavaProgress.GUI" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\nilsa\OneDrive\Documents\Lelouch\Java\LearningJava\Java Repository" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="CodeTester" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="JavaProgress.CodeTester" />
+    <configuration name="MusicPlayer" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-20" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="JavaProgress.GUI.Music_Player" />
       <module name="Java Repository" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\javafx-sdk-20\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
         <option name="credential" />
         <option name="region" />
@@ -133,28 +745,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="officiallogin.Login" />
-      <module name="Java Repository" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="officiallogin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThisFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CCE.ThisFrame" />
-      <module name="Java Repository" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CCE.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-20" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="Java Repository1" />
       <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
         <option name="credential" />
         <option name="region" />
@@ -164,70 +758,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgress.timer.TimerApp" />
-      <module name="Java Repository" />
-      <option name="VM_PARAMETERS" value="--module-path $PROJECT_DIR$/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib --add-modules javafx.controls,javafx.fxml" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaProgress.timer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="cashering" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Contridas.cashering" />
-      <module name="Java Repository" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Contridas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="fileHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.fileHandling" />
-      <module name="Java Repository" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.CodeTester" />
-      <item itemvalue="Application.cashering" />
-      <item itemvalue="Application.fileHandling" />
-      <item itemvalue="Application.Login" />
-      <item itemvalue="Application.ThisFrame" />
-      <item itemvalue="Application.TimerApp" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.TimerApp" />
-        <item itemvalue="Application.cashering" />
-        <item itemvalue="Application.Login" />
-        <item itemvalue="Application.ThisFrame" />
-        <item itemvalue="Application.fileHandling" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\nilsa\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c20971ba-c155-4d46-8eef-9de05277895e" name="Changes" comment="" />
@@ -251,16 +786,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Intellij" />
+    </ignored-roots>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
+    <expand>
+      <path>
+        <item name="Java Repository" type="b2602c69:ProjectViewProjectNode" />
+        <item name="dir{file://C:/Users/nilsa/OneDrive/Documents/Lelouch/Java/LearningJava/Java Repository}" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Java_Repository$PhonesMenu.ic" NAME="PhonesMenu Coverage Results" MODIFIED="1675183477011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Java_Repository$MonsterGame.ic" NAME="MonsterGame Coverage Results" MODIFIED="1682104458289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>JavaProgress.Polymorphism.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Java_Repository$PhonesMenu.ic" NAME="PhonesMenu Coverage Results" MODIFIED="1675183477011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Java_Repository$CodeTester2.ic" NAME="CodeTester2 Coverage Results" MODIFIED="1675760520480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
