@@ -26,32 +26,35 @@ public class FortuneTeller {
         }).toList();
 
         Thread supervisor = createSupervisor(threads);
-        threads.forEach(g -> {
-            g.start();
-        });
         supervisor.start();
 
-//        questions.forEach(q -> {
-//            new Thread(() -> {
-//                c.ask(q);
-//            }).start();
-//        });
     }
 
     public static Thread createSupervisor(List<Thread> threads) {
 
         Thread supervisor = new Thread(() -> {
-            List<String> runningThread;
-            do {
-                runningThread = threads.stream().filter(Thread::isAlive).map(Thread::getName).toList();
-                System.out.println("Current Thread: " + Thread.currentThread().getName());
-                System.out.println(runningThread.toString());
+            System.out.println(Thread.currentThread().getName() + "Running");
+            threads.forEach(g -> {
+                g.start();
+                List<String> runningThread;
+                do {
+                    runningThread = threads.stream().filter(Thread::isAlive).map(Thread::getName).toList();
+                    if (!runningThread.isEmpty()) {
+                        System.out.println(runningThread.toString());
+                    }
+                    try {
+                        Thread.sleep(1000);
+                    } catch (InterruptedException e) {
+                        throw new RuntimeException(e);
+                    }
+                } while (!runningThread.isEmpty());
                 try {
-                    Thread.sleep(1000);
+                    g.join();
                 } catch (InterruptedException e) {
                     throw new RuntimeException(e);
                 }
-            } while (!runningThread.isEmpty());
+            });
+
             System.out.println(Thread.currentThread().getName() + " - All threads completed!");
         });
 

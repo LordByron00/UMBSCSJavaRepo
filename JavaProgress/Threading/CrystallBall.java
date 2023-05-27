@@ -40,9 +40,9 @@ public class CrystallBall {
 
     private int difficultyTime(Question.Difficulty difficulty) {
         return switch (difficulty) {
-            case EASY -> 1000;
-            case MEDIUM -> 2000;
-            case HARD -> 3000;
+            case EASY -> 1;
+            case MEDIUM -> 1;
+            case HARD -> 1;
         };
 
     }
