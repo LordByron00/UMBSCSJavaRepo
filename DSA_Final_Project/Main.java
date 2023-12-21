@@ -6,33 +6,6 @@ import java.util.Scanner;
 public class Main {
     static List<Medical_Condition> MD = Med_Con_Config.generateMedConfig();
 
-//    public static Triage selectTriage() {
-//        Scanner io = new Scanner(System.in);
-//        System.out.println("[1]EMERGENCY\n[2]URGENT\n[3]IMPORTANT\n[4]ROUTINE");
-//        Triage x = null;
-//        while (x == null) {
-//            int choice = io.nextInt();
-//            switch (choice) {
-//                case 1:
-//                    x = Triage.EMERGENCY;
-//                    break;
-//                case 2:
-//                    x = Triage.URGENT;
-//                    break;
-//                case 3:
-//                    x = Triage.IMPORTANT;
-//                    break;
-//                case 4:
-//                    x= Triage.ROUTINE;
-//                    break;
-//                default:
-//                    System.out.println("Incorrect choice!");
-//                    io.nextInt();
-//            }
-//        }
-//        return x;
-//    }
-
     public static void main(String[] args) {
         Scanner io = new Scanner(System.in);
         Patient_Management_System system = new Patient_Management_System();
@@ -64,8 +37,7 @@ public class Main {
                         while (matched_med_Con == null);
                         Triage triage = matched_med_Con.getTriage();
                         Patient patient = new Patient(name, age, matched_med_Con);
-                        system.addPatient(patient);
-                        system.prioritizePatients(patient);
+                        system.patientEntry(patient);
                         System.out.println("Add more? type [YES]|[NO]");
                         String addChoice = io.nextLine();
                         if (!addChoice.equalsIgnoreCase("yes")) {
@@ -75,7 +47,7 @@ public class Main {
                     break;
                 case 2:
                     System.out.println("-----------------PATIENT QUEUE-----------------");
-                    system.displayPatient();
+                    system.displayPatientQueue();
                     break;
                 case 3:
                     System.out.println("-----------------RESOURCE ALLOCATION-----------------");

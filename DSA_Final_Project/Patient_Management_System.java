@@ -18,11 +18,10 @@ public class Patient_Management_System {
         File patientFile = new File(".\\DSA_Final_Project\\Patient.ser");
         try {
             if (patientFile.exists() && patientFile.length() > 0) {
-                try (ObjectInputStream inputStream = new ObjectInputStream(new FileInputStream(".\\DSA_Final_Project\\Patient.ser"))) {
-                    List<Patient> deserializedAnimals = (List<Patient>) inputStream.readObject();
+                try (ObjectInputStream IS = new ObjectInputStream(new FileInputStream(".\\DSA_Final_Project\\Patient.ser"))) {
+                    List<Patient> deserializedAnimals = (List<Patient>) IS.readObject();
                     for (Patient patient : deserializedAnimals) {
-                        addPatient(patient);
-                        prioritizePatients(patient);
+                        patientEntry(patient);
                     }
                 } catch (IOException | ClassNotFoundException e) {
                     e.printStackTrace();
@@ -36,9 +35,9 @@ public class Patient_Management_System {
 
         File medConFile = new File(".\\DSA_Final_Project\\MedicalResources.ser");
         if (medConFile.exists() && medConFile.length() > 0) {
-            try (FileInputStream fileInasdasda = new FileInputStream(".\\DSA_Final_Project\\MedicalResources.ser");
-                 ObjectInputStream objectIn = new ObjectInputStream(fileInasdasda)) {
-                this.RAO = (Resource_Allocation_Optimization) objectIn.readObject();
+            try (FileInputStream fileResources = new FileInputStream(".\\DSA_Final_Project\\MedicalResources.ser");
+                 ObjectInputStream OI = new ObjectInputStream(fileResources)) {
+                this.RAO = (Resource_Allocation_Optimization) OI.readObject();
             } catch (IOException | ClassNotFoundException e) {
                 e.printStackTrace();
             }
@@ -49,30 +48,28 @@ public class Patient_Management_System {
 
     public void serialize_patient() {
         if (!triageQueue.isEmpty()) {
-            try (FileOutputStream fileOut = new FileOutputStream(".\\DSA_Final_Project\\Patient.ser");
-                 ObjectOutputStream objectOut = new ObjectOutputStream(fileOut)) {
-                objectOut.writeObject(patient_Records);
+            try (FileOutputStream patientFile = new FileOutputStream(".\\DSA_Final_Project\\Patient.ser");
+                 ObjectOutputStream OO = new ObjectOutputStream(patientFile)) {
+                OO.writeObject(patient_Records);
             }catch (IOException e) {
                 e.printStackTrace();
             }
         }
 
-        try (ObjectOutputStream RAOwriter = new ObjectOutputStream(new FileOutputStream(".\\DSA_Final_Project\\MedicalResources.ser"))) {
-            RAOwriter.writeObject(RAO);
+        try (ObjectOutputStream RAOOOS = new ObjectOutputStream(new FileOutputStream(".\\DSA_Final_Project\\MedicalResources.ser"))) {
+            RAOOOS.writeObject(RAO);
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    public void addPatient(Patient x) {
+    public void patientEntry(Patient x) {
         patient_Records.add(x);
-    }
-
-    public void prioritizePatients(Patient x) {
         triageQueue.add((x));
+
     }
 
-    public void displayPatient() {
+    public void displayPatientQueue() {
         patientTemp = new PriorityQueue<>(triageQueue);
         while(!patientTemp.isEmpty()) {
             Patient x = patientTemp.poll();
@@ -95,13 +92,12 @@ public class Patient_Management_System {
         List<Patient> tempPatients = new ArrayList<>(patient_Records);
         List<Patient> sorted = null;
         if (sortBy.equalsIgnoreCase("name")) {
-            sorted = mergeSort(new ArrayList<>(tempPatients), Comparator.comparing(person -> person.getName().toLowerCase()));
+            sorted = mergeSort(new ArrayList<>(tempPatients), Comparator.comparing(Patient -> Patient.getName().toLowerCase()));
         } else if (sortBy.equalsIgnoreCase("age")) {
             sorted = mergeSort(new ArrayList<>(tempPatients), Comparator.comparing(Patient::getAge));
         }
         assert sorted != null;
         printReport(sorted, sortBy);
-
     }
     public void printReport(List<Patient> patients, String sortBy) {
         if (sortBy.equalsIgnoreCase("name")) {
@@ -116,40 +112,40 @@ public class Patient_Management_System {
         }
     }
 
-    public static List<Patient> mergeSort(List<Patient> people, Comparator<Patient> comparator) {
-        return mergeSortHelper(new ArrayList<Patient>(people), comparator);
+    public static List<Patient> mergeSort(List<Patient> patients, Comparator<Patient> cmptr) {
+        return mergeSortHelper(new ArrayList<Patient>(patients), cmptr);
     }
 
-    public static List<Patient> mergeSortHelper(List<Patient> people, Comparator<Patient> comparator) {
-        if (people.size() <= 1) {
-            return people;
+    public static List<Patient> mergeSortHelper(List<Patient> patients, Comparator<Patient> cmptr) {
+        if (patients.size() <= 1) {
+            return patients;
         }
 
-        int mid = people.size() / 2;
-        List<Patient> left = mergeSortHelper(new ArrayList<>(people.subList(0, mid)), comparator);
-        List<Patient> right = mergeSortHelper(new ArrayList<>(people.subList(mid, people.size())), comparator);
+        int mid = patients.size() / 2;
+        List<Patient> L = mergeSortHelper(new ArrayList<>(patients.subList(0, mid)), cmptr);
+        List<Patient> R = mergeSortHelper(new ArrayList<>(patients.subList(mid, patients.size())), cmptr);
 
-        return merge(left, right, comparator);
+        return merge(L, R, cmptr);
     }
 
-    public static List<Patient> merge(List<Patient> left, List<Patient> right, Comparator<Patient> comparator) {
+    public static List<Patient> merge(List<Patient> L, List<Patient> R, Comparator<Patient> cmptr) {
         List<Patient> merged = new ArrayList<>();
-        int leftIndex = 0;
-        int rightIndex = 0;
+        int LIX = 0;
+        int RIX = 0;
 
-        while (leftIndex < left.size() && rightIndex < right.size()) {
-            if (comparator.compare(left.get(leftIndex), right.get(rightIndex)) <= 0) {
-                merged.add(left.get(leftIndex++));
+        while (LIX < L.size() && RIX < R.size()) {
+            if (cmptr.compare(L.get(LIX), R.get(RIX)) <= 0) {
+                merged.add(L.get(LIX++));
             } else {
-                merged.add(right.get(rightIndex++));
+                merged.add(R.get(RIX++));
             }
         }
 
-        while (leftIndex < left.size()) {
-            merged.add(left.get(leftIndex++));
+        while (LIX < L.size()) {
+            merged.add(L.get(LIX++));
         }
-        while (rightIndex < right.size()) {
-            merged.add(right.get(rightIndex++));
+        while (RIX < R.size()) {
+            merged.add(R.get(RIX++));
         }
         return merged;
     }
