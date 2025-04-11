@@ -7,7 +7,7 @@ public class CakeMaker {
     private boolean ovenInUse = false;
     private boolean mixingBowlInUse = false;
 
-    /* Main Method */
+    /* com.example.Main Method */
     public static void main(String[] args) {
 
         CakeMaker c = new CakeMaker();
@@ -40,7 +40,7 @@ public class CakeMaker {
         } catch (Exception e) {
             System.out.println(e);
         }
-    } // End of Main
+    } // End of com.example.Main
 
     /* Instance Methods */
     public void preheatOven() {

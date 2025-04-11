@@ -10,7 +10,7 @@ public class faze {
         Boolean loop = true;
         int arn = 0;
         do {
-            System.out.println("Main Menu Selection: \n[1]Calculation \n[2]Loop \n[3]Array");
+            System.out.println("com.example.Main Menu Selection: \n[1]Calculation \n[2]Loop \n[3]Array");
             String mu = mn.nextLine();
             int nmu = Integer.parseInt(mu);
             String art = "";

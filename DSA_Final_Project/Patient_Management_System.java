@@ -12,6 +12,7 @@ public class Patient_Management_System {
             return o2.getSeverity() - o1.getSeverity();
         }
     };
+
     PriorityQueue<Patient> triageQueue = new PriorityQueue<>(priorityComparator);
     PriorityQueue<Patient> patientTemp;
     public Patient_Management_System() {

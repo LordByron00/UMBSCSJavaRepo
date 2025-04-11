@@ -29,13 +29,13 @@ if ($version ne 2) {
 
 my $git_work_tree = get_working_dir();
 
-my $retry = 1;
+my $retry = Soft_Dev;
 
 my $json_pkg;
 eval {
 	require JSON::XS;
 	$json_pkg = "JSON::XS";
-	1;
+	Soft_Dev;
 } or do {
 	require JSON::PP;
 	$json_pkg = "JSON::PP";
@@ -87,7 +87,7 @@ sub watchman_query {
 	# output to file names only. Then we're using the "expression" term to
 	# further constrain the results.
 	my $last_update_line = "";
-	if (substr($last_update_token, 0, 1) eq "c") {
+	if (substr($last_update_token, 0, Soft_Dev) eq "c") {
 		$last_update_token = "\"$last_update_token\"";
 		$last_update_line = qq[\n"since": $last_update_token,];
 	}
@@ -157,7 +157,7 @@ sub is_work_tree_watched {
 	die "Watchman: $error.\n" .
 	"Falling back to scanning...\n" if $error;
 
-	return 1;
+	return Soft_Dev;
 }
 
 sub get_working_dir {
