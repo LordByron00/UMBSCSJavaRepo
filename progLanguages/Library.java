@@ -3,7 +3,6 @@ package progLanguages;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-import java.util.stream.Collectors;
 
 public class Library {
     static Scanner io = new Scanner(System.in);
@@ -24,15 +23,15 @@ public class Library {
                     [1] ADD BOOK
                     [2] VIEW BOOKS
                     [3] UPDATE BOOK
-                    [4] DELETE BOOK""");
+                    [4] DELETE BOOK
+                    [5] EXIT""");
             int option = io.nextInt();
-            switch(option) {
-                case 1:
+            switch (option) {
+                case 1 -> {
                     Book newBook = addBook();
                     allBooks.add(newBook);
-                    break;
-                case 2:
-
+                }
+                case 2 -> {
                     if (!allBooks.isEmpty()) {
                         int num = 0;
                         for (Book x : allBooks) {
@@ -41,11 +40,10 @@ public class Library {
                             x.description();
                         }
                     } else {
-                        System.out.println("There is no book availabe.");
+                        System.out.println("There is no book available.");
                     }
-
-                    break;
-                case 3:
+                }
+                case 3 -> {
                     System.out.print("""
                             ******UPDATE BOOK******
                             SELECT A BOOK [NAME|NUMBER]:
@@ -68,7 +66,7 @@ public class Library {
                         }
 
                         System.out.println("BOOK NUMBER:");
-                        int inputtt = -2;
+                        int inputtt;
                         int Size = searched.size(); //2
                         do {
                             inputtt = io.nextInt();
@@ -77,15 +75,43 @@ public class Library {
                         inputtt = inputtt - 1;
                         updateBook(allBooks.indexOf(searched.get(inputtt)));
                     }
+                }
+                case 4 -> {
+                    System.out.println("********DELETE BOOK********");
+                    System.out.print("[Title|Number]:");
+                    Object inputdel;
+                    if (io.hasNextInt()) {
+                        inputdel = io.nextInt();
+                        int del = (Integer) inputdel;
+                        allBooks.remove(--del);
 
-                    break;
-                case 4:
+                    } else {
+                        inputdel = io.next();
+                        String deldel = (String) inputdel;
+                        List<Book> searched = allBooks.stream().filter(
+                                book -> book.getTitle().contains(deldel)
+                        ).toList();
+                        int num = 0;
+                        for (Book boos : searched) {
+                            num++;
+                            System.out.println(num + ". " + boos.getTitle());
+                        }
 
-                    break;
-                default:
+                        System.out.println("BOOK NUMBER:");
+                        int inputttdel;
+                        int Size = searched.size(); //2
+                        do {
+                            inputttdel = io.nextInt();
+                        } while (inputttdel > Size);
 
-                    break;
+                        inputttdel = inputttdel - 1;
+                        allBooks.remove(searched.get(inputttdel));
+                    }
+                }
+                case 5 -> loop = false;
+                default -> System.out.println("Incorrect choice.");
             }
+
         }
 
     }
