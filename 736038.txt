@@ -1,0 +1,2 @@
+Sat Apr 26 21:29:27 CST 2025 *Withdraw* $2000.0 - $25.0 Balance: $1975.0 
+Sat Apr 26 21:29:27 CST 2025 *Deposit* $1975.0 + $1006.0 Balance: $2981.0 

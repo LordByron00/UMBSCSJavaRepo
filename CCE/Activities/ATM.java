@@ -160,6 +160,7 @@ public class ATM {
     //         TransactFile.createNewFile();
     //     }
     // }
+
     public static void withdraw() throws IOException {
         double oldBal = balance;
         balance -= amount;

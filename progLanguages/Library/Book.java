@@ -1,4 +1,4 @@
-package progLanguages;
+package progLanguages.Library;
 
 public class Book {
 
