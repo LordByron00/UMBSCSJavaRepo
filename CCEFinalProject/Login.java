@@ -134,7 +134,7 @@ public class Login extends JFrame implements ActionListener {
 		// Checking whether the user exists
 		boolean userFound = false;
 		try {
-			file = new FileInputStream("src\\CCEFinalProject\\users.ser");
+			file = new FileInputStream("CCEFinalProject\\users.ser");
 			objectReader = new ObjectInputStream(file);
 
 			while ((userObject = (User) objectReader.readObject()) != null) {

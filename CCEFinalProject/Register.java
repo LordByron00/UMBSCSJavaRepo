@@ -55,7 +55,7 @@ public class Register extends JFrame {
 	public Register() {
 
 
-		setIconImage(Toolkit.getDefaultToolkit().getImage("src\\CCEFinalProject\\resources\\icon.png"));
+		setIconImage(Toolkit.getDefaultToolkit().getImage("CCEFinalProject\\resources\\icon.png"));
 		setTitle("Registration");
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		setBounds(100, 100, 950, 720);
@@ -186,7 +186,7 @@ public class Register extends JFrame {
 		        String username = userTF.getText();
 		        char[] password = passTF.getPassword();
 		        String email = emailTF.getText();
-		        int number = Integer.valueOf(numberTF.getText());
+		        int number = Integer.parseInt(numberTF.getText());
 		        String address = addressTF.getText();
 
 		        // Create a User object with the input data
@@ -194,10 +194,10 @@ public class Register extends JFrame {
 
 		        // Write the User object to file
 		        try (
-		        		FileOutputStream fileOutputStream = new FileOutputStream("src\\CCEFinalProject\\users.ser", true);
+		        		FileOutputStream fileOutputStream = new FileOutputStream("CCEFinalProject\\users.ser", true);
 		        		ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream)) {
 			            objectOutputStream.writeObject(userObject);
-			            regIcon = new ImageIcon("src\\CCEFinalProject\\resources\\check.png");
+			            regIcon = new ImageIcon("CCEFinalProject\\resources\\check.png");
 			            JOptionPane.showMessageDialog(null, "Successfully Registered!", "Heisenburger", JOptionPane.DEFAULT_OPTION, regIcon);
 			            
 		        } catch (IOException ex) {
@@ -224,7 +224,7 @@ public class Register extends JFrame {
 		});
 
 		JLabel lblNewLabel_1 = new JLabel("New label");
-		lblNewLabel_1.setIcon(new ImageIcon("src\\CCEFinalProject\\resources\\Logo3small.png"));
+		lblNewLabel_1.setIcon(new ImageIcon("CCEFinalProject\\resources\\Logo3small.png"));
 		lblNewLabel_1.setBounds(39, 34, 294, 188);
 		contentPane.add(lblNewLabel_1);
 
@@ -237,6 +237,6 @@ public class Register extends JFrame {
 		JLabel lblNewLabel_2 = new JLabel("");
 		lblNewLabel_2.setBounds(46, 184, 610, 418);
 		panel_1.add(lblNewLabel_2);
-		lblNewLabel_2.setIcon(new ImageIcon("src\\CCEFinalProject\\resources\\burger3.png"));
+		lblNewLabel_2.setIcon(new ImageIcon("CCEFinalProject\\resources\\burger3.png"));
 	}
 }

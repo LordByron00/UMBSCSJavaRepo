@@ -67,30 +67,30 @@ public class Payment extends JFrame {
 		JLabel lblNewLabel_1 = new JLabel("");
 		lblNewLabel_1.setBounds(-349, 205, 1252, 455);
 		panel_2.add(lblNewLabel_1);
-		lblNewLabel_1.setIcon(new ImageIcon("src\\CCEFinalProject\\resources\\burger3.png"));
+		lblNewLabel_1.setIcon(new ImageIcon("CCEFinalProject\\resources\\burger3.png"));
 
 		JLabel lblNewLabel_2 = new JLabel("New label");
-		lblNewLabel_2.setIcon(new ImageIcon("src\\CCEFinalProject\\resources\\Logo3small.png"));
+		lblNewLabel_2.setIcon(new ImageIcon("CCEFinalProject\\resources\\Logo3small.png"));
 		lblNewLabel_2.setBounds(-20, 11, 293, 249);
 		panel_2.add(lblNewLabel_2);
 
 		JLabel lblNewLabel_3 = new JLabel("");
-		lblNewLabel_3.setIcon(new ImageIcon("src\\CCEFinalProject\\resources\\visamaster.png"));
+		lblNewLabel_3.setIcon(new ImageIcon("CCEFinalProject\\resources\\visamaster.png"));
 		lblNewLabel_3.setBounds(160, 327, 150, 54);
 		panel.add(lblNewLabel_3);
 
 		JLabel lblNewLabel_4 = new JLabel("");
-		lblNewLabel_4.setIcon(new ImageIcon("src\\CCEFinalProject\\resources\\BPI.jpg"));
+		lblNewLabel_4.setIcon(new ImageIcon("CCEFinalProject\\resources\\BPI.jpg"));
 		lblNewLabel_4.setBounds(169, 260, 59, 36);
 		panel.add(lblNewLabel_4);
 
 		JLabel lblNewLabel_5 = new JLabel("");
-		lblNewLabel_5.setIcon(new ImageIcon("src\\CCEFinalProject\\resources\\Metro.png"));
+		lblNewLabel_5.setIcon(new ImageIcon("CCEFinalProject\\resources\\Metro.png"));
 		lblNewLabel_5.setBounds(238, 260, 72, 36);
 		panel.add(lblNewLabel_5);
 
 		JLabel lblNewLabel_4_1 = new JLabel("");
-		lblNewLabel_4_1.setIcon(new ImageIcon("src\\CCEFinalProject\\resources\\gcash.png"));
+		lblNewLabel_4_1.setIcon(new ImageIcon("CCEFinalProject\\resources\\gcash.png"));
 		lblNewLabel_4_1.setBounds(169, 192, 50, 44);
 		panel.add(lblNewLabel_4_1);
 
@@ -107,10 +107,10 @@ public class Payment extends JFrame {
 					} else if(BankRadio.isSelected()) {
 						  textArea.setText(textArea.getText() + "Payment Method: Bank Account \nStatus: Fully Paid!");
 					}
-		            ImageIcon regIcon = new ImageIcon("src\\CCEFinalProject\\resources\\check.png");
+		            ImageIcon regIcon = new ImageIcon("CCEFinalProject\\resources\\check.png");
 		            JOptionPane.showMessageDialog(null, message, "Payment completed!", JOptionPane.DEFAULT_OPTION, regIcon);
 		            String[] responses = {"Print", "No"};
-					ImageIcon icon = new ImageIcon("src\\CCEFinalProject\\resources\\print.png");
+					ImageIcon icon = new ImageIcon("CCEFinalProject\\resources\\print.png");
 					int answer = JOptionPane.showOptionDialog(null, "Do you want to print your receipt?", "Receipt Confirmation", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.PLAIN_MESSAGE, icon, responses, 0);
 					switch (answer) {
 						case 0:

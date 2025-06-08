@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="870efb35-82d0-4201-86e4-906058f24a4e" name="Changes" comment="c">
-      <change beforePath="$PROJECT_DIR$/out/production/Java Repository/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Repository/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progLanguages/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/progLanguages/Library.java" afterDir="false" />
-    </list>
+    <list default="true" id="870efb35-82d0-4201-86e4-906058f24a4e" name="Changes" comment="c" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,13 +63,13 @@
       <recent name="DSA_Carlo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Library">
-    <configuration name="AlgoComp.Factorization.GFG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AlgoComp.Factorization.GFG" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="ATM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CCE.Activities.ATM" />
       <module name="Java Repository" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AlgoComp.Factorization.*" />
+          <option name="PATTERN" value="CCE.Activities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionGrowth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AlgoComp.FunctionGrowth" />
+    <configuration name="AlgoComp.Factorization.GFG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AlgoComp.Factorization.GFG" />
       <module name="Java Repository" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AlgoComp.*" />
+          <option name="PATTERN" value="AlgoComp.Factorization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +104,11 @@
       </method>
     </configuration>
     <configuration name="Library" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="progLanguages.Library" />
+      <option name="MAIN_CLASS_NAME" value="progLanguages.Library.Library" />
       <module name="Java Repository" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="progLanguages.*" />
+          <option name="PATTERN" value="progLanguages.bank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ATM" />
         <item itemvalue="Application.Library" />
         <item itemvalue="Application.AlgoComp.Factorization.GFG" />
         <item itemvalue="Application.GFG" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.FunctionGrowth" />
       </list>
     </recent_temporary>
   </component>

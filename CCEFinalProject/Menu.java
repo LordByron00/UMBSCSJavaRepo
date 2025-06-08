@@ -71,28 +71,41 @@ public class Menu extends JFrame implements MouseListener, Serializable {
 	public Menu() {
 
 
-		burger1 = new burgers(45, "Breakfast Burger", new ImageIcon("src\\CCEFinalProject\\resources\\itemburger1.png"));
+		burger1 = new burgers(45, "Breakfast Burger", new ImageIcon("CCEFinalProject\\resources\\itemburger1.png"));
 		FlowLayout flowLayout = (FlowLayout) burger1.getLayout();
 		burger1.setBounds(238, 168, 117, 127);
 		burger1.addMouseListener(this);
-		burger2 = new burgers(60, "Chicken Burger", new ImageIcon("src\\CCEFinalProject\\resources\\itemburger2.png"));
+		burger2 = new burgers(60, "Chicken Burger", new ImageIcon("CCEFinalProject\\resources\\itemburger2.png"));
 		burger2.setBounds(520, 150, 95, 145);
 		burger2.addMouseListener(this);
-		burger3 = new burgers(40, "Ham Burger", new ImageIcon("src\\CCEFinalProject\\resources\\itemburger3.png"));
+		burger3 = new burgers(40, "Ham Burger", new ImageIcon("CCEFinalProject\\resources\\itemburger3.png"));
 		burger3.setBounds(374, 143, 117, 152);
 		burger3.addMouseListener(this);
-		combo3 = new burgers(50, "French Fries", new ImageIcon("src\\CCEFinalProject\\resources\\itemCombo3.png"));
+
+
+
+		drink1 = new burgers(20, "Royal\n", new ImageIcon("CCEFinalProject\\resources\\itemDrink1.png"));
+		drink1.setBounds(258, 442, 75, 152);
+		drink1.addMouseListener(this);
+		drink2 = new burgers(20, "Sprite", new ImageIcon("CCEFinalProject\\resources\\itemDrink3.png"));
+		drink2.setBounds(394, 442, 75, 145);
+		drink2.addMouseListener(this);
+		drink3 = new burgers(20, "Coca Cola", new ImageIcon("CCEFinalProject\\resources\\itemDrink2.png"));
+		drink3.setBounds(526, 442, 75, 145);
+		drink3.addMouseListener(this);
+
+		combo1 = new burgers(75, "Combo Meal A", new ImageIcon("CCEFinalProject\\resources\\itemCombo2.png"));
+		combo1.setBounds(384, 291, 95, 140);
+		combo1.addMouseListener(this);
+		combo2 = new burgers(85, "Combo Meal B", new ImageIcon("CCEFinalProject\\resources\\itemCombo1.png"));
+		combo2.setBounds(520, 291, 95, 145);
+		combo2.addMouseListener(this);
+		combo3 = new burgers(50, "French Fries", new ImageIcon("CCEFinalProject\\resources\\itemCombo3.png"));
 		combo3.setBounds(248, 286, 95, 145);
 		combo3.addMouseListener(this);
 
 
-		drink1 = new burgers(20, "Royal\n", new ImageIcon("src\\CCEFinalProject\\resources\\itemDrink1.png"));
-		drink1.setBounds(258, 442, 75, 152);
-		drink1.addMouseListener(this);
-
-
-
-		setIconImage(Toolkit.getDefaultToolkit().getImage("src\\CCEFinalProject\\resources\\icon.png"));
+		setIconImage(Toolkit.getDefaultToolkit().getImage("CCEFinalProject\\resources\\icon.png"));
 		setBounds(100, 100, 1140, 704);
 		contentPane = new JPanel();
 		contentPane.setBounds(new Rectangle(500, 0, 0, 0));
@@ -111,7 +124,7 @@ public class Menu extends JFrame implements MouseListener, Serializable {
 		panel.setLayout(null);
 
 		JLabel lblNewLabel = new JLabel("");
-		lblNewLabel.setIcon(new ImageIcon("src\\CCEFinalProject\\resources\\flyingfood.jpg"));
+		lblNewLabel.setIcon(new ImageIcon("CCEFinalProject\\resources\\flyingfood.jpg"));
 		lblNewLabel.setBounds(-471, -244, 935, 1052);
 		panel.add(lblNewLabel);
 
@@ -160,31 +173,24 @@ public class Menu extends JFrame implements MouseListener, Serializable {
         			.addContainerGap()
         			.addComponent(jPanel1, GroupLayout.DEFAULT_SIZE, 665, Short.MAX_VALUE))
         );
-        jPanel1.setLayout(null);
-        drink3 = new burgers(20, "Coca Cola", new ImageIcon("src\\\\CCEFinalProject\\\\resources\\\\itemDrink3.png"));
-        drink3.setBounds(526, 442, 75, 145);
-        jPanel1.add(drink3);
-        drink3.addMouseListener(this);
-        drink2 = new burgers(20, "Sprite", new ImageIcon("src\\\\CCEFinalProject\\\\resources\\\\itemDrink2.png"));
-        drink2.setBounds(394, 442, 75, 145);
-        jPanel1.add(drink2);
-        combo2 = new burgers(85, "Combo Meal B", new ImageIcon("src\\\\CCEFinalProject\\\\resources\\\\itemCombo1.png"));
-        combo2.setBounds(520, 291, 95, 145);
-        jPanel1.add(combo2);
 
-        combo1 = new burgers(75, "Combo Meal A", new ImageIcon("src\\\\CCEFinalProject\\\\resources\\\\itemCombo2.png"));
-        combo1.setBounds(384, 291, 95, 140);
-        jPanel1.add(combo1);
-        combo1.addMouseListener(this);
+        jPanel1.setLayout(null);
+
         jPanel1.add(burger1);
         jPanel1.add(burger2);
         jPanel1.add(burger3);
+
+		jPanel1.add(combo1);
+		jPanel1.add(combo2);
         jPanel1.add(combo3);
+
         jPanel1.add(drink1);
-        combo2.addMouseListener(this);
-        drink2.addMouseListener(this);
+		jPanel1.add(drink2);
+		jPanel1.add(drink3);
+
         getContentPane().setLayout(layout);
         contentPane.setBackground(null);
+
         jPanel1.setBackground(null);
 
         DefaultTableCellRenderer centerRenderer = new DefaultTableCellRenderer();
@@ -196,7 +202,7 @@ public class Menu extends JFrame implements MouseListener, Serializable {
         checkOutBtn.setFont(new Font("Cambria", Font.BOLD | Font.ITALIC, 14));
         checkOutBtn.setBounds(937, 608, 154, 37);
         jPanel1.add(checkOutBtn);
-        checkOutBtn.setIcon(new ImageIcon("src\\CCEFinalProject\\resources\\cart.png"));
+        checkOutBtn.setIcon(new ImageIcon("CCEFinalProject\\resources\\cart.png"));
 
         checkOutBtn.addActionListener(new ActionListener() {
         	public void actionPerformed(ActionEvent e) {
@@ -264,7 +270,7 @@ public class Menu extends JFrame implements MouseListener, Serializable {
                                         });
 
                                         lblNewLabel_1 = new JLabel("");
-                                        lblNewLabel_1.setIcon(new ImageIcon("src\\CCEFinalProject\\resources\\Logo3small.png"));
+                                        lblNewLabel_1.setIcon(new ImageIcon("CCEFinalProject\\resources\\Logo3small.png"));
                                         lblNewLabel_1.setBounds(265, -94, 266, 212);
                                         jPanel1.add(lblNewLabel_1);
 
@@ -328,7 +334,7 @@ public class Menu extends JFrame implements MouseListener, Serializable {
 
     private void formWindowOpened(java.awt.event.WindowEvent evt) {
         try{
-               FileInputStream file = new FileInputStream("src\\CCEFinalProject\\file.txt");
+               FileInputStream file = new FileInputStream("CCEFinalProject\\file.txt");
                ObjectInputStream input = new ObjectInputStream(file);
 
                Vector<Vector> tableData = (Vector<Vector>) input.readObject();
@@ -370,7 +376,7 @@ public class Menu extends JFrame implements MouseListener, Serializable {
 	         Vector<Vector> tableData = model.getDataVector();
 	         model.removeRow(row);
 	         try{
-	               FileOutputStream file = new FileOutputStream("src\\CCEFinalProject\\file.txt");
+	               FileOutputStream file = new FileOutputStream("CCEFinalProject\\file.txt");
 	               ObjectOutputStream output = new ObjectOutputStream(file);
 
 	               output.writeObject(tableData);
@@ -408,7 +414,7 @@ public class Menu extends JFrame implements MouseListener, Serializable {
 			        }
 
 			         try{
-			               FileOutputStream file = new FileOutputStream("src\\CCEFinalProject\\file.txt");
+			               FileOutputStream file = new FileOutputStream("CCEFinalProject\\file.txt");
 			               ObjectOutputStream output = new ObjectOutputStream(file);
 			               output.writeObject(tableData);
 			               output.close();
@@ -425,7 +431,7 @@ public class Menu extends JFrame implements MouseListener, Serializable {
 		if (e.getSource() instanceof burgers) {
 	        burgers orderedBurger = (burgers) e.getSource();
 			String[] responses = {"Add to cart", "Cancel"};
-			ImageIcon icon = new ImageIcon("src\\CCEFinalProject\\resources\\walter.png");
+			ImageIcon icon = new ImageIcon("CCEFinalProject\\resources\\walter.png");
 			int answer = JOptionPane.showOptionDialog(null, "Are you sure?", "Confirmation", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.PLAIN_MESSAGE, icon, responses, 1);
 
 			switch(answer) {
@@ -443,7 +449,7 @@ public class Menu extends JFrame implements MouseListener, Serializable {
 				        model.addRow(new Object[] {name, price, quantity});
 
 				           try{
-				               FileOutputStream file = new FileOutputStream("src\\CCEFinalProject\\file.txt");
+				               FileOutputStream file = new FileOutputStream("CCEFinalProject\\file.txt");
 				               ObjectOutputStream output = new ObjectOutputStream(file);
 
 				               output.writeObject(tableData);
@@ -497,7 +503,7 @@ public class Menu extends JFrame implements MouseListener, Serializable {
 
 		nameLabel = new JLabel(this.fullname);
 		nameLabel.setHorizontalTextPosition(SwingConstants.LEADING);
-		nameLabel.setIcon(new ImageIcon("src\\CCEFinalProject\\resources\\prof.png"));
+		nameLabel.setIcon(new ImageIcon("CCEFinalProject\\resources\\prof.png"));
 		nameLabel.setBounds(860, -4, 200, 81);
         jPanel1.add(nameLabel);
 	}
